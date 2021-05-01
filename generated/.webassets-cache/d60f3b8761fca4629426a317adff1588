@@ -1,0 +1,3 @@
+V@font-face {\u000a	font-family: 'DOTMATRI';\u000a	src: url('../../plugin/DisplayLayerProgress/static/font/DOTMATRI.eot');\u000a	src: local('DOTMATRI'), url('../../plugin/DisplayLayerProgress/static/font/DOTMATRI.woff') format('woff'), url('../../plugin/DisplayLayerProgress/static/font/DOTMATRI.ttf') format('truetype');\u000a}\u000a/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_507">Text with this font applied</p> */\u000a.fontsforweb_fontid_507 {\u000a	font-family: 'DOTMATRI' !important;\u000a}\u000a
+p0
+.

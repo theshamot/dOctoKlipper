@@ -1,0 +1,12 @@
+tomas:
+    active: true
+    apikey: null
+    groups:
+    - admins
+    - users
+    password: 66f550d95816176f264382e5a2c009198bcf660fac79cad675910117e2aaf3385e2c818d374fb77f80bae752a6e1791e021b9000a9bb3bdecba384aa48b10d57
+    permissions: []
+    roles:
+    - user
+    - admin
+    settings: {}

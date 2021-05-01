@@ -1,0 +1,2832 @@
+{
+    "pillar_leg_v4_0.2mm_PLA_ENDER3_30m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "70"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 2046.2169769229995
+            },
+            "lastPrintTime": {
+                "_default": 2046.2169769229995
+            }
+        },
+        "hash": "c612c74cde73026a071f611dc387253a02bcf246",
+        "analysis": {
+            "estimatedPrintTime": 1059.3843609958506,
+            "printingArea": {
+                "maxZ": 14.0,
+                "maxX": 130.825,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 128.825,
+                "depth": 180.0,
+                "height": 13.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 4.418189685524076,
+                    "length": 1836.869820000087
+                }
+            }
+        },
+        "display": "pillar leg v4_0.2mm_PLA_ENDER3_30m.gcode",
+        "history": [
+            {
+                "timestamp": 1613591742.133559,
+                "printTime": 2046.2169769229995,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "Body5_0.2mm_PLA_ENDER3_1h36m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "345"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 5963.178556178
+            },
+            "lastPrintTime": {
+                "_default": 5963.178556178
+            }
+        },
+        "hash": "984c95d1c07038cfc808224f90ef4c0d9c6fa4cd",
+        "analysis": {
+            "estimatedPrintTime": 4467.633519761215,
+            "printingArea": {
+                "maxZ": 57.0,
+                "maxX": 158.756,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 156.756,
+                "depth": 180.0,
+                "height": 56.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 7.840350655168192,
+                    "length": 3259.639020000125
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1615570303.367152,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570485.78634,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570485.887773,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570485.961825,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570486.039681,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570486.085471,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570486.158604,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570486.21105,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570486.275352,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570486.355281,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570486.462705,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570486.608696,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570486.720038,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570486.784056,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570486.882252,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570487.003227,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570487.053665,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570487.118985,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570487.18502,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570487.306159,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570487.400131,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570487.447636,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570487.514369,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570487.574119,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570487.618322,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570487.752564,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570487.854567,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570487.914743,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570488.029807,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570488.112014,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570488.185514,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570488.237649,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570488.304562,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570488.372239,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570488.487684,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570488.544228,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570488.599524,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570488.703829,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570488.741936,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570488.814287,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570488.909477,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570488.983204,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570489.036932,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570489.090398,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570489.162347,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570489.257735,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570489.385986,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570489.483455,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570489.596592,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570489.670197,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570489.730845,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570489.789909,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570489.937124,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570489.992609,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570490.075065,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570490.130714,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570490.17843,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570490.234321,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570490.40337,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570490.489561,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570490.515351,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570490.583575,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570490.662985,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570490.787226,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570490.918421,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570490.961215,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570491.024283,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570491.070786,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570491.140352,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570491.194305,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570491.245976,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570491.29506,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570491.377786,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570491.413538,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570491.538704,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570491.625387,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570491.721396,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570491.849216,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570492.026696,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570492.11374,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570492.166754,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570492.220975,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570492.34556,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570492.395073,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570492.470091,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570492.582999,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570492.637123,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615570492.7162,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615576461.869165,
+                "printTime": 5963.178556178,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "Body1__0.2mm_PLA_ENDER3_1h43m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "150"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 6554.377434433001
+            },
+            "lastPrintTime": {
+                "_default": 6554.377434433001
+            }
+        },
+        "hash": "9f7d7de9350b04386bb1a1505dc62cb85b64d64d",
+        "analysis": {
+            "estimatedPrintTime": 4317.291748410682,
+            "printingArea": {
+                "maxZ": 30.0,
+                "maxX": 174.85,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 172.85,
+                "depth": 180.0,
+                "height": 29.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 14.6966223475004,
+                    "length": 6110.145550000336
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1614715610.442736,
+                "printTime": 6554.377434433001,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "part53175_FDM_X_Logo_0.2mm_PLA_ENDER3_31m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "44"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 2077.5793052219997
+            },
+            "lastPrintTime": {
+                "_default": 2077.5793052219997
+            }
+        },
+        "hash": "48a05bc7ddfe2061c15210413152022a7b667342",
+        "analysis": {
+            "estimatedPrintTime": 881.3652427152505,
+            "printingArea": {
+                "maxZ": 8.8,
+                "maxX": 66.464,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 64.464,
+                "depth": 180.0,
+                "height": 8.600000000000001
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 4.481408117953307,
+                    "length": 1863.1529900001083
+                }
+            }
+        },
+        "display": "part53175_FDM_X Logo_0.2mm_PLA_ENDER3_31m.gcode",
+        "history": [
+            {
+                "timestamp": 1615747153.729425,
+                "printTime": 2077.5793052219997,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "part53171_FDM_ABS_FeatureTestVertical-orientation_0.2mm_PLA_ENDER3_1h22m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "40"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 5361.543822123001
+            },
+            "lastPrintTime": {
+                "_default": 5361.543822123001
+            }
+        },
+        "hash": "31d88fdfa62c0aab07160bebef3be40616a6f6a9",
+        "analysis": {
+            "estimatedPrintTime": 1886.8487490558816,
+            "printingArea": {
+                "maxZ": 8.0,
+                "maxX": 132.246,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 130.246,
+                "depth": 180.0,
+                "height": 7.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 9.27071093283958,
+                    "length": 3854.3137199999883
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1615741680.116771,
+                "printTime": 5361.543822123001,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "hhhh.gcode": {
+        "hash": "f7c26de73f7744ccfdd696d63b934421b4bef00d"
+    },
+    "Body1_0.2mm_PLA_ENDER3_1h49m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "386"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 7228.250072639001
+            },
+            "lastPrintTime": {
+                "_default": 7228.250072639001
+            }
+        },
+        "hash": "0493193cda28fcfeb9c1f10561844d604daf70b9",
+        "analysis": {
+            "estimatedPrintTime": 4401.023973100812,
+            "printingArea": {
+                "maxZ": 45.0,
+                "maxX": 123.822,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 121.822,
+                "depth": 180.0,
+                "height": 44.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 11.651531500470455,
+                    "length": 4844.1438900004605
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1614418213.371581,
+                "printTime": 7228.250072639001,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "part53171_FDM_ABS_FeatureTestVertical-orientation_0.2mm_PLA_ENDER3_27m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "17"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 1837.5055652109997
+            },
+            "lastPrintTime": {
+                "_default": 1837.5055652109997
+            }
+        },
+        "hash": "3bb97103e45dc38251ba582f2a34b46af94c3709",
+        "analysis": {
+            "estimatedPrintTime": 1281.1098900371599,
+            "printingArea": {
+                "maxZ": 3.4,
+                "maxX": 132.246,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 130.246,
+                "depth": 180.0,
+                "height": 3.1999999999999997
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 1.678934229296605,
+                    "length": 698.0197399999644
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1615733714.90952,
+                "printTime": 1837.5055652109997,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "Component1_0.2mm_PLA_ENDER3_51m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "85"
+        },
+        "statistics": {
+            "averagePrintTime": {},
+            "lastPrintTime": {}
+        },
+        "hash": "f8171220dd24b689397ee4828a9fc230e9950488",
+        "analysis": {
+            "estimatedPrintTime": 1963.8983910323568,
+            "printingArea": {
+                "maxZ": 17.0,
+                "maxX": 56.56,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 54.56,
+                "depth": 180.0,
+                "height": 16.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 6.470562711228683,
+                    "length": 2690.147370000042
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1614538557.140828,
+                "printerProfile": "_default",
+                "success": false
+            }
+        ]
+    },
+    "Component2_0.2mm_PLA_ENDER3_51m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "127"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 3261.332665194
+            },
+            "lastPrintTime": {
+                "_default": 3261.332665194
+            }
+        },
+        "hash": "72aa899e14009e9ea81233c6f247a880e22c148d",
+        "analysis": {
+            "estimatedPrintTime": 2014.5046361400791,
+            "printingArea": {
+                "maxZ": 17.0,
+                "maxX": 68.656,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 66.656,
+                "depth": 180.0,
+                "height": 16.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 5.9923434382784535,
+                    "length": 2491.32690000013
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1614550714.175585,
+                "printTime": 3261.332665194,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "Body1_klika_v3_0.2mm_PLA_ENDER3_1h19m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "58"
+        },
+        "statistics": {
+            "averagePrintTime": {},
+            "lastPrintTime": {}
+        },
+        "hash": "d037ba2495a87f97d18045d57c33b73241c7c252",
+        "analysis": {
+            "estimatedPrintTime": 1086.856031885092,
+            "printingArea": {
+                "maxZ": 20.0,
+                "maxX": 68.751,
+                "maxY": 189.294,
+                "minX": 50.842,
+                "minY": 123.614,
+                "minZ": 8.4
+            },
+            "dimensions": {
+                "width": 17.909000000000006,
+                "depth": 65.68,
+                "height": 11.6
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 4.812361314165885,
+                    "length": 2000.7473399998962
+                }
+            }
+        },
+        "display": "Body1_klika v3_0.2mm_PLA_ENDER3_1h19m.gcode",
+        "history": [
+            {
+                "timestamp": 1614628053.509979,
+                "printerProfile": "_default",
+                "success": false
+            }
+        ]
+    },
+    "ringingtower.gcode": {
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 1763.2926375455
+            },
+            "lastPrintTime": {
+                "_default": 1678.8878498929998
+            }
+        },
+        "hash": "1a0eae509607327b9ca1a86d9a3f7e793a7674a2",
+        "history": [
+            {
+                "timestamp": 1616095531.111021,
+                "printTime": 1847.6974251980002,
+                "printerProfile": "_default",
+                "success": true
+            },
+            {
+                "timestamp": 1616097836.392293,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1616097836.500515,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1616098145.922787,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1616099859.279238,
+                "printTime": 1678.8878498929998,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "part53171_FDM_ABS_FeatureTestVertical-orientation_0.2mm_PLA_ENDER3_35m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "20"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 2195.414449058
+            },
+            "lastPrintTime": {
+                "_default": 2195.414449058
+            }
+        },
+        "hash": "52a8f15f9d38ea394684c29c3ecf59edf678404e",
+        "analysis": {
+            "estimatedPrintTime": 1594.8775652635727,
+            "printingArea": {
+                "maxZ": 4.0,
+                "maxX": 134.101,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 132.101,
+                "depth": 180.0,
+                "height": 3.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 2.7504031199237993,
+                    "length": 1143.4847399999835
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1615720568.002968,
+                "printTime": 2195.414449058,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "pillar_leg_pillar_leg_v5_pillar_leg_v5_0.2mm_PLA_ENDER3_34m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "70"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 2257.1915213699976
+            },
+            "lastPrintTime": {
+                "_default": 2257.1915213699976
+            }
+        },
+        "hash": "3fb9c361a815082e9599b4e69e248a5e582ac441",
+        "analysis": {
+            "estimatedPrintTime": 1242.6483730239129,
+            "printingArea": {
+                "maxZ": 14.0,
+                "maxX": 130.75,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 128.75,
+                "depth": 180.0,
+                "height": 13.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 4.474360257213115,
+                    "length": 1860.2228300000431
+                }
+            }
+        },
+        "display": "pillar leg_pillar leg v5_pillar leg v5_0.2mm_PLA_ENDER3_34m.gcode",
+        "history": [
+            {
+                "timestamp": 1614525472.477395,
+                "printTime": 2257.1915213699976,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "head1_head_v19_Body1_FusionComponent_0.2mm_PLA_ENDER3_2h35m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "180"
+        },
+        "statistics": {
+            "averagePrintTime": {},
+            "lastPrintTime": {}
+        },
+        "hash": "deeb7365025a9980d0d101e8b74d2299b1eca297",
+        "analysis": {
+            "estimatedPrintTime": 5027.601150778242,
+            "printingArea": {
+                "maxZ": 36.0,
+                "maxX": 135.75,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 133.75,
+                "depth": 180.0,
+                "height": 35.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 22.993176586295217,
+                    "length": 9559.45197999991
+                }
+            }
+        },
+        "display": "head1_head v19_Body1_FusionComponent_0.2mm_PLA_ENDER3_2h35m.gcode",
+        "history": [
+            {
+                "timestamp": 1614527279.023532,
+                "printerProfile": "_default",
+                "success": false
+            }
+        ]
+    },
+    "vesacek_na_topeni_v2.gcode": {
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 3263.647750586
+            },
+            "lastPrintTime": {
+                "_default": 3263.647750586
+            }
+        },
+        "hash": "08a06be1a76f1deeb11cca6cee1f5778f1b68544",
+        "display": "vesacek na topeni v2.gcode",
+        "history": [
+            {
+                "timestamp": 1619546670.224317,
+                "printTime": 3263.647750586,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "part53171_FDM_ABS_FeatureTestVertical-orientation_0.2mm_PLA_ENDER3_48m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "40"
+        },
+        "statistics": {
+            "averagePrintTime": {},
+            "lastPrintTime": {}
+        },
+        "hash": "069584f57bb24b3d1d8602f5e20c23823fb46a65",
+        "analysis": {
+            "estimatedPrintTime": 1849.3228590227143,
+            "printingArea": {
+                "maxZ": 8.0,
+                "maxX": 132.221,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 130.221,
+                "depth": 180.0,
+                "height": 7.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 4.690036350833052,
+                    "length": 1949.8905300003394
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1615715024.239217,
+                "printerProfile": "_default",
+                "success": false
+            }
+        ]
+    },
+    "screwtainer_v3.gcode": {
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 5554.659515479998
+            },
+            "lastPrintTime": {
+                "_default": 5554.659515479998
+            }
+        },
+        "hash": "0331d8a841691f4205f92bf72bd2f0f6a4dbd144",
+        "display": "screwtainer v3.gcode",
+        "history": [
+            {
+                "timestamp": 1619865083.751037,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1619865083.885667,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1619865084.016682,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1619865084.31398,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1619865084.456939,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1619865084.594529,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1619865084.770807,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1619865084.826913,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1619865084.962947,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1619865085.062437,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1619871002.777708,
+                "printTime": 5554.659515479998,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "Body1_klika_v3_0.2mm_PLA_ENDER3_34m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "100"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 2193.1798615305006
+            },
+            "lastPrintTime": {
+                "_default": 2198.9003921440017
+            }
+        },
+        "hash": "bfb6e01fc9100a105f86edfd4ae3ec77f0c662b5",
+        "analysis": {
+            "estimatedPrintTime": 1153.6220041933116,
+            "printingArea": {
+                "maxZ": 20.0,
+                "maxX": 52.908,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 50.908,
+                "depth": 180.0,
+                "height": 19.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 4.471529384762409,
+                    "length": 1859.0458899999321
+                }
+            }
+        },
+        "display": "Body1_klika v3_0.2mm_PLA_ENDER3_34m.gcode",
+        "history": [
+            {
+                "timestamp": 1614630306.81636,
+                "printTime": 2187.4593309169995,
+                "printerProfile": "_default",
+                "success": true
+            },
+            {
+                "timestamp": 1614632708.132719,
+                "printTime": 2198.9003921440017,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "bltouch_and_cable_holder_0.2mm_PLA_ENDER3_22m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "29"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 1409.0581287749992
+            },
+            "lastPrintTime": {
+                "_default": 1409.0581287749992
+            }
+        },
+        "hash": "b5b7e2f063d2d0b9db836c2730a00a55154123e4",
+        "analysis": {
+            "estimatedPrintTime": 736.7430427044134,
+            "printingArea": {
+                "maxZ": 5.8,
+                "maxX": 139.34,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 137.34,
+                "depth": 180.0,
+                "height": 5.6
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 2.208556829311883,
+                    "length": 918.2112299999336
+                }
+            }
+        },
+        "display": "bltouch and cable holder_0.2mm_PLA_ENDER3_22m.gcode",
+        "history": [
+            {
+                "timestamp": 1615629770.48151,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615629875.488566,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615631309.422142,
+                "printTime": 1409.0581287749992,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "head1_head_v19_Body1_FusionComponent_0.2mm_PLA_ENDER3_2h42m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "219"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 9846.117063270998
+            },
+            "lastPrintTime": {
+                "_default": 9846.117063270998
+            }
+        },
+        "hash": "9f4af304e136d16eaf6c7c05f926f10b515ee80b",
+        "analysis": {
+            "estimatedPrintTime": 5295.885564399337,
+            "printingArea": {
+                "maxZ": 36.0,
+                "maxX": 135.85,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 133.85,
+                "depth": 180.0,
+                "height": 35.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 23.55889796938372,
+                    "length": 9794.651600000092
+                }
+            }
+        },
+        "display": "head1_head v19_Body1_FusionComponent_0.2mm_PLA_ENDER3_2h42m.gcode",
+        "history": [
+            {
+                "timestamp": 1614537254.077125,
+                "printTime": 9846.117063270998,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "modded_back_pads.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "4"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 3317.9996681720004
+            },
+            "lastPrintTime": {
+                "_default": 3317.9996681720004
+            }
+        },
+        "hash": "b1ff6e93ec34fd21f327a3c64a1900fa2c63b1ae",
+        "analysis": {
+            "estimatedPrintTime": 1850.9234638834034,
+            "printingArea": {
+                "maxZ": 2.0,
+                "maxX": 177.235,
+                "maxY": 177.745,
+                "minX": 42.765,
+                "minY": 42.255,
+                "minZ": 1.2
+            },
+            "dimensions": {
+                "width": 134.47000000000003,
+                "depth": 135.49,
+                "height": 0.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 8.216085172862606,
+                    "length": 3415.851280000296
+                }
+            }
+        },
+        "display": "modded back pads.gcode",
+        "history": [
+            {
+                "timestamp": 1614512515.152033,
+                "printTime": 3317.9996681720004,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "Brrnie_0.2mm_PLA_ENDER3_52m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "303"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 3437.322836405
+            },
+            "lastPrintTime": {
+                "_default": 3437.322836405
+            }
+        },
+        "hash": "8d251d65d2355510da167d7eb5c6e611c1888cf8",
+        "analysis": {
+            "estimatedPrintTime": 2556.9760196919606,
+            "printingArea": {
+                "maxZ": 41.8,
+                "maxX": 124.126,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 122.126,
+                "depth": 180.0,
+                "height": 41.599999999999994
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 3.809859407491913,
+                    "length": 1583.9554799999935
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1613589524.040481,
+                "printTime": 3437.322836405,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "Body3_0.2mm_PLA_ENDER3_55m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "203"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 3505.260461826
+            },
+            "lastPrintTime": {
+                "_default": 3505.260461826
+            }
+        },
+        "hash": "a458761f39e70ae48d8097e9224bb9e290d8ac0b",
+        "analysis": {
+            "estimatedPrintTime": 2512.5229609032835,
+            "printingArea": {
+                "maxZ": 37.4,
+                "maxX": 121.193,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 119.193,
+                "depth": 180.0,
+                "height": 37.199999999999996
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 4.535705889068464,
+                    "length": 1885.7273800000416
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1615579973.1615,
+                "printTime": 3505.260461826,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "Body1_0.2mm_PLA_ENDER3_1h25m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "137"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 5293.8782516705
+            },
+            "lastPrintTime": {
+                "_default": 5320.971904607999
+            }
+        },
+        "hash": "c92c0784a83ec56799e3ed5f3eba755cca0185f1",
+        "analysis": {
+            "estimatedPrintTime": 3086.7915633422026,
+            "printingArea": {
+                "maxZ": 15.0,
+                "maxX": 128.565,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 126.565,
+                "depth": 180.0,
+                "height": 14.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 9.474828059561483,
+                    "length": 3939.175760000003
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1614453196.015078,
+                "printTime": 5266.784598733,
+                "printerProfile": "_default",
+                "success": true
+            },
+            {
+                "timestamp": 1614459669.828335,
+                "printTime": 5320.971904607999,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "fan_test_-_Part_2_0.2mm_PLA_ENDER3_1h0m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "235"
+        },
+        "statistics": {
+            "averagePrintTime": {},
+            "lastPrintTime": {}
+        },
+        "hash": "3eb8d22dfa9624ec22ca4764272019d81ccec08e",
+        "analysis": {
+            "estimatedPrintTime": 2197.242916883167,
+            "printingArea": {
+                "maxZ": 47.0,
+                "maxX": 140.797,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 138.797,
+                "depth": 180.0,
+                "height": 46.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 5.904044434203048,
+                    "length": 2454.616440000281
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1615649290.40244,
+                "printerProfile": "_default",
+                "success": false
+            }
+        ]
+    },
+    "holder_0.2mm_PLA_ENDER3_1h22m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "178"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 5484.715555791
+            },
+            "lastPrintTime": {
+                "_default": 5484.715555791
+            }
+        },
+        "hash": "eb73827b6521c78ceffb25c91c8d81c9ad85a35a",
+        "analysis": {
+            "estimatedPrintTime": 2781.2367507611198,
+            "printingArea": {
+                "maxZ": 22.0,
+                "maxX": 135.805,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 133.805,
+                "depth": 180.0,
+                "height": 21.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 9.785424513413732,
+                    "length": 4068.30675999974
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1614378279.278647,
+                "printTime": 5484.715555791,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "part53174_FDM_part15-00DF448_0.2mm_PLA_ENDER3_2h10m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "175"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 8259.708934427
+            },
+            "lastPrintTime": {
+                "_default": 8259.708934427
+            }
+        },
+        "hash": "5ac5a1e45cc99ef46e2360cd1d867b66b771b170",
+        "analysis": {
+            "estimatedPrintTime": 4281.5310920888005,
+            "printingArea": {
+                "maxZ": 23.0,
+                "maxX": 144.1,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 142.1,
+                "depth": 180.0,
+                "height": 22.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 16.964396591212367,
+                    "length": 7052.976520000648
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1615791169.049971,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791169.093271,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791169.528681,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791170.245864,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791170.480685,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791170.812695,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791170.962965,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791171.202298,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791171.336702,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791171.705724,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791172.868772,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791173.448693,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791173.524868,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791174.025185,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791174.468633,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791174.672789,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791174.904759,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791175.202145,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791175.453517,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791175.528031,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791175.587976,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791175.662949,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791175.773751,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791175.892432,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791175.937558,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791176.054185,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791176.195585,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791176.276118,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791176.347041,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791176.636731,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791176.86434,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791176.979399,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791177.085735,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791177.181927,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791177.245995,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791177.357611,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791177.508383,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791177.607394,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791177.68816,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791177.774629,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791177.922048,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791178.041704,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791178.148506,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791178.393716,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791178.469948,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791178.561698,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791178.740109,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791178.890779,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791179.177101,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791179.223975,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791179.402505,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791179.48397,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791179.706242,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791180.02897,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791180.220344,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791180.369085,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791180.523597,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791180.611517,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791180.709039,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791180.83504,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791181.006812,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791181.216291,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615791181.389445,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615799484.008416,
+                "printTime": 8259.708934427,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "Component1_0.2mm_PLA_ENDER3_1h46m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "141"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 6835.321507952498
+            },
+            "lastPrintTime": {
+                "_default": 6857.681998770997
+            }
+        },
+        "hash": "2fccd5f49797bb78fdab1a7a260ee903b5717889",
+        "analysis": {
+            "estimatedPrintTime": 4104.307756809032,
+            "printingArea": {
+                "maxZ": 17.0,
+                "maxX": 149.595,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 147.595,
+                "depth": 180.0,
+                "height": 16.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 12.726431164901905,
+                    "length": 5291.035240001009
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1614425074.651415,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1614426247.061354,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1614433153.263148,
+                "printTime": 6812.961017133999,
+                "printerProfile": "_default",
+                "success": true
+            },
+            {
+                "timestamp": 1614440486.173098,
+                "printTime": 6857.681998770997,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "klin_stolek_v4_0.2mm_PLA_ENDER3_54m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "106"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 3475.683233848
+            },
+            "lastPrintTime": {
+                "_default": 3475.683233848
+            }
+        },
+        "hash": "6c69fa84bc70d61c6cd6853bc50478b8eaf3db9e",
+        "analysis": {
+            "estimatedPrintTime": 1640.6196988297374,
+            "printingArea": {
+                "maxZ": 21.2,
+                "maxX": 130.963,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 128.963,
+                "depth": 180.0,
+                "height": 21.0
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 5.453467430254604,
+                    "length": 2267.288290000134
+                }
+            }
+        },
+        "display": "klin stolek v4_0.2mm_PLA_ENDER3_54m.gcode",
+        "history": [
+            {
+                "timestamp": 1615584927.94932,
+                "printTime": 3475.683233848,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "part53171_FDM_ABS_FeatureTestVertical-orientation_0.2mm_PLA_ENDER3_36m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "20"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 2407.9972272760006
+            },
+            "lastPrintTime": {
+                "_default": 2407.9972272760006
+            }
+        },
+        "hash": "db4ec6f76f05423e7b880c01f29a1661001a1b49",
+        "analysis": {
+            "estimatedPrintTime": 1608.4428452903921,
+            "printingArea": {
+                "maxZ": 4.0,
+                "maxX": 133.108,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 131.108,
+                "depth": 180.0,
+                "height": 3.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 3.092112231574556,
+                    "length": 1285.5508800000052
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1615724233.307698,
+                "printTime": 2407.9972272760006,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "Component1_0.2mm_PLA_ENDER3_1h44m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "141"
+        },
+        "statistics": {
+            "averagePrintTime": {},
+            "lastPrintTime": {}
+        },
+        "hash": "d369090940645845a4ec52ac6a066577642fb0fa",
+        "analysis": {
+            "estimatedPrintTime": 4035.760353974655,
+            "printingArea": {
+                "maxZ": 17.0,
+                "maxX": 149.496,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 147.496,
+                "depth": 180.0,
+                "height": 16.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 12.450262376433006,
+                    "length": 5176.217600000942
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1614423520.178854,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1614424820.230557,
+                "printerProfile": "_default",
+                "success": false
+            }
+        ]
+    },
+    "cube_0.2mm_PLA_ENDER3_11m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "100"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 732.2738665830002
+            },
+            "lastPrintTime": {
+                "_default": 732.2738665830002
+            }
+        },
+        "hash": "2e72ded2073f6460ccbcde9e0fe8e6228156392f",
+        "analysis": {
+            "estimatedPrintTime": 606.5096555035577,
+            "printingArea": {
+                "maxZ": 20.0,
+                "maxX": 119.488,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 117.488,
+                "depth": 180.0,
+                "height": 19.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 1.0398607928686294,
+                    "length": 432.32387999999975
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1615712468.766726,
+                "printerProfile": "_default",
+                "success": false
+            },
+            {
+                "timestamp": 1615713290.239638,
+                "printTime": 732.2738665830002,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "pin_stand_v4_Body1_pin_0.2mm_PLA_ENDER3_10m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "100"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 752.651500464
+            },
+            "lastPrintTime": {
+                "_default": 752.651500464
+            }
+        },
+        "hash": "8e499157c61b573e9ed53bb45f2e1f41d6f794ed",
+        "analysis": {
+            "estimatedPrintTime": 465.8306017538893,
+            "printingArea": {
+                "maxZ": 20.0,
+                "maxX": 95.562,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 93.562,
+                "depth": 180.0,
+                "height": 19.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 0.5964706268473506,
+                    "length": 247.98367000000584
+                }
+            }
+        },
+        "display": "pin_stand v4_Body1_pin_0.2mm_PLA_ENDER3_10m.gcode",
+        "history": [
+            {
+                "timestamp": 1614795129.842606,
+                "printTime": 752.651500464,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "head1_0.2mm_PLA_ENDER3_2h40m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "215"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 9404.732593567
+            },
+            "lastPrintTime": {
+                "_default": 9404.732593567
+            }
+        },
+        "hash": "674836f6f6c4321426b7699b1c3408907c51d6d8",
+        "analysis": {
+            "estimatedPrintTime": 4634.686502674864,
+            "printingArea": {
+                "maxZ": 36.0,
+                "maxX": 138.103,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 136.103,
+                "depth": 180.0,
+                "height": 35.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 26.565189599327557,
+                    "length": 11044.52242000036
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1613602236.416475,
+                "printTime": 9404.732593567,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "head1_head_v19_Body1_FusionComponent_0.2mm_PLA_ENDER3_2h37m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "180"
+        },
+        "statistics": {
+            "averagePrintTime": {},
+            "lastPrintTime": {}
+        },
+        "hash": "abb20ea79471b14825292d93d69ae7d88ae1d97e",
+        "analysis": {
+            "estimatedPrintTime": 5074.535707809641,
+            "printingArea": {
+                "maxZ": 36.0,
+                "maxX": 135.85,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 133.85,
+                "depth": 180.0,
+                "height": 35.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 23.340168995796898,
+                    "length": 9703.714660000067
+                }
+            }
+        },
+        "display": "head1_head v19_Body1_FusionComponent_0.2mm_PLA_ENDER3_2h37m.gcode",
+        "history": [
+            {
+                "timestamp": 1614527385.313419,
+                "printerProfile": "_default",
+                "success": false
+            }
+        ]
+    },
+    "screwtainer_v2.gcode": {
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 8139.278167321001
+            },
+            "lastPrintTime": {
+                "_default": 8139.278167321001
+            }
+        },
+        "hash": "a74b40731f41b3e367b39077de87074c320adf82",
+        "display": "screwtainer v2.gcode",
+        "history": [
+            {
+                "timestamp": 1619863790.624677,
+                "printTime": 8139.278167321001,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "part53171_FDM_ABS_FeatureTestVertical-orientation_0.2mm_PLA_ENDER3_18m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "17"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 1250.6933244290003
+            },
+            "lastPrintTime": {
+                "_default": 1250.6933244290003
+            }
+        },
+        "hash": "319cf090c679faf4f2d7e03ad06fc18c6d836449",
+        "analysis": {
+            "estimatedPrintTime": 585.4027784341756,
+            "printingArea": {
+                "maxZ": 3.4,
+                "maxX": 132.29,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 130.29,
+                "depth": 180.0,
+                "height": 3.1999999999999997
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 1.6789347344057977,
+                    "length": 698.0199499999638
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1615735428.975069,
+                "printTime": 1250.6933244290003,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "part53171_FDM_ABS_FeatureTestVertical-orientation_0.2mm_PLA_ENDER3_28m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "20"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 1778.2942738380007
+            },
+            "lastPrintTime": {
+                "_default": 1778.2942738380007
+            }
+        },
+        "hash": "a67a830bba49b28eb4c1200ec573804fc7b9b5b6",
+        "analysis": {
+            "estimatedPrintTime": 1183.0673070206988,
+            "printingArea": {
+                "maxZ": 4.0,
+                "maxX": 132.221,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 130.221,
+                "depth": 180.0,
+                "height": 3.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 3.062396128539288,
+                    "length": 1273.196360000029
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1615717339.038962,
+                "printTime": 1778.2942738380007,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "Component3_pant_sloupek_v8_Body1_FusionComponent_0.2mm_PLA_ENDER3_2h4m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "10"
+        },
+        "statistics": {
+            "averagePrintTime": {},
+            "lastPrintTime": {}
+        },
+        "hash": "63b816eb7feb16342eea94b477306dc5936c8a10",
+        "analysis": {
+            "estimatedPrintTime": 4883.757286368046,
+            "printingArea": {
+                "maxZ": 2.0,
+                "maxX": 177.31,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 175.31,
+                "depth": 180.0,
+                "height": 1.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 17.201472309305622,
+                    "length": 7151.541149999935
+                }
+            }
+        },
+        "display": "Component3_pant sloupek v8_Body1_FusionComponent_0.2mm_PLA_ENDER3_2h4m.gcode",
+        "history": [
+            {
+                "timestamp": 1614505122.144359,
+                "printerProfile": "_default",
+                "success": false
+            }
+        ]
+    },
+    "Component2_0.2mm_PLA_ENDER3_1h37m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "128"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 6105.853770891
+            },
+            "lastPrintTime": {
+                "_default": 6105.853770891
+            }
+        },
+        "hash": "a6005a7cbcb5d4857380c00480c13b89e46d9bb0",
+        "analysis": {
+            "estimatedPrintTime": 3700.693210586444,
+            "printingArea": {
+                "maxZ": 17.0,
+                "maxX": 203.852,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 201.852,
+                "depth": 180.0,
+                "height": 16.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 11.881091410236047,
+                    "length": 4939.583810000261
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1614500641.471973,
+                "printTime": 6105.853770891,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "holder_0.2mm_PLA_ENDER3_7h44m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "239"
+        },
+        "hash": "da9385a958781b1fe2a128cef5278799b41e3f3c",
+        "analysis": {
+            "estimatedPrintTime": 18223.75874168415,
+            "printingArea": {
+                "maxZ": 24.8,
+                "maxX": 174.819,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 172.819,
+                "depth": 180.0,
+                "height": 24.6
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 56.14916210679793,
+                    "length": 23344.10892999845
+                }
+            }
+        }
+    },
+    "pant_ram_v6_0.2mm_PLA_ENDER3_47m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "134"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 3052.575749478
+            },
+            "lastPrintTime": {
+                "_default": 3052.575749478
+            }
+        },
+        "hash": "423ee2a0bae7bd0c2cb9aaa55eac0308cf0873bd",
+        "analysis": {
+            "estimatedPrintTime": 1281.2137371665915,
+            "printingArea": {
+                "maxZ": 20.0,
+                "maxX": 122.283,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 120.283,
+                "depth": 180.0,
+                "height": 19.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 5.9308026659041895,
+                    "length": 2465.741219999981
+                }
+            }
+        },
+        "display": "pant ram v6_0.2mm_PLA_ENDER3_47m.gcode",
+        "history": [
+            {
+                "timestamp": 1614371060.897523,
+                "printTime": 3052.575749478,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "part53171_FDM_ABS_FeatureTestVertical-orientation_0.2mm_PLA_ENDER3_31m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "20"
+        },
+        "statistics": {
+            "averagePrintTime": {},
+            "lastPrintTime": {}
+        },
+        "hash": "cdfe9e6d65ea7630d948a389a779df79f83d6ccc",
+        "analysis": {
+            "estimatedPrintTime": 1312.2693955551395,
+            "printingArea": {
+                "maxZ": 4.0,
+                "maxX": 134.101,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 132.101,
+                "depth": 180.0,
+                "height": 3.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 2.750306932701601,
+                    "length": 1143.4447499999833
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1615718350.266657,
+                "printerProfile": "_default",
+                "success": false
+            }
+        ]
+    },
+    "Brrnie_0.2mm_PLA_ENDER3_49m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "309"
+        },
+        "statistics": {
+            "averagePrintTime": {},
+            "lastPrintTime": {}
+        },
+        "hash": "35911511a156b015145b18265048e65874444966",
+        "analysis": {
+            "estimatedPrintTime": 2491.1928261339376,
+            "printingArea": {
+                "maxZ": 41.8,
+                "maxX": 124.126,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 122.126,
+                "depth": 180.0,
+                "height": 41.599999999999994
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 3.5315801044415975,
+                    "length": 1468.2603899999929
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1613585797.493558,
+                "printerProfile": "_default",
+                "success": false
+            }
+        ]
+    },
+    "Body1_klika_v3_0.2mm_PLA_ENDER3_1h23m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "149"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 5393.054657185
+            },
+            "lastPrintTime": {
+                "_default": 5393.054657185
+            }
+        },
+        "hash": "0f199d16270095215a1579a3a1a044ce71b4ac25",
+        "analysis": {
+            "estimatedPrintTime": 2749.6982897070357,
+            "printingArea": {
+                "maxZ": 20.0,
+                "maxX": 69.589,
+                "maxY": 190.047,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 67.589,
+                "depth": 180.047,
+                "height": 19.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 10.334199194415529,
+                    "length": 4296.460760000037
+                }
+            }
+        },
+        "display": "Body1_klika v3_0.2mm_PLA_ENDER3_1h23m.gcode",
+        "history": [
+            {
+                "timestamp": 1614622504.867888,
+                "printTime": 5393.054657185,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "penholder.gcode": {
+        "statistics": {
+            "averagePrintTime": {},
+            "lastPrintTime": {}
+        },
+        "hash": "4818e362e46889179002682dfffa8949d165cfa5",
+        "history": [
+            {
+                "timestamp": 1616184395.272636,
+                "printerProfile": "_default",
+                "success": false
+            }
+        ]
+    },
+    "Body1__0.2mm_PLA_ENDER3_1h40m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "150"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 6138.509046816001
+            },
+            "lastPrintTime": {
+                "_default": 6138.509046816001
+            }
+        },
+        "hash": "53f37f20512df9dcbdbf9b65b89e9865f28289f9",
+        "analysis": {
+            "estimatedPrintTime": 4180.149110394404,
+            "printingArea": {
+                "maxZ": 30.0,
+                "maxX": 172.892,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 170.892,
+                "depth": 180.0,
+                "height": 29.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 14.514875135962763,
+                    "length": 6034.583840000314
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1614802930.774377,
+                "printTime": 6138.509046816001,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "clip.gcode": {
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 6482.386331421001
+            },
+            "lastPrintTime": {
+                "_default": 6482.386331421001
+            }
+        },
+        "hash": "47ebb9fab20c673abe52abef8241d2b03277e248",
+        "history": [
+            {
+                "timestamp": 1619366503.482616,
+                "printTime": 6482.386331421001,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    },
+    "part53174_FDM_part15-00DF448_0.2mm_PLA_ENDER3_2h6m.gcode": {
+        "DisplayLayerProgress": {
+            "totalLayerCountWithoutOffset": "175"
+        },
+        "statistics": {
+            "averagePrintTime": {
+                "_default": 7965.909607001999
+            },
+            "lastPrintTime": {
+                "_default": 7965.909607001999
+            }
+        },
+        "hash": "f9b999f0e00f09ccee8b1bfd3c01e951c134aa49",
+        "analysis": {
+            "estimatedPrintTime": 4067.876906688638,
+            "printingArea": {
+                "maxZ": 23.0,
+                "maxX": 211.326,
+                "maxY": 190.0,
+                "minX": 2.0,
+                "minY": 10.0,
+                "minZ": 0.2
+            },
+            "dimensions": {
+                "width": 209.326,
+                "depth": 180.0,
+                "height": 22.8
+            },
+            "filament": {
+                "tool0": {
+                    "volume": 16.049561267849,
+                    "length": 6672.632190000053
+                }
+            }
+        },
+        "history": [
+            {
+                "timestamp": 1615756299.663085,
+                "printTime": 7965.909607001999,
+                "printerProfile": "_default",
+                "success": true
+            }
+        ]
+    }
+}

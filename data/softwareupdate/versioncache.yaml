@@ -1,0 +1,324 @@
+DisplayLayerProgress:
+  available: true
+  disabled: false
+  error: null
+  hash: 94663702744291bd9868e48fe258935d
+  information:
+    local:
+      name: 1.25.3
+      value: 1.25.3
+    needs_online: true
+    remote:
+      name: V1.26.0
+      release_notes: https://github.com/OllisGit/OctoPrint-DisplayLayerProgress/releases/tag/1.26.0
+      value: 1.26.0
+  online: true
+  possible: true
+  timestamp: 1619875304.30654
+PrintJobHistory:
+  available: true
+  disabled: false
+  error: null
+  hash: 3282d80fff0d4989b4c1823515fdb23f
+  information:
+    local:
+      name: 1.10.0
+      value: 1.10.0
+    needs_online: true
+    remote:
+      name: V1.12.dev1
+      release_notes: https://github.com/OllisGit/OctoPrint-PrintJobHistory/releases/tag/1.12.dev1
+      value: 1.12.dev1
+  online: true
+  possible: true
+  timestamp: 1619845543.063862
+Python3PluginCompatibilityCheck:
+  available: false
+  disabled: false
+  error: null
+  hash: 9e5d81c5216023014b871c407972faa5
+  information:
+    local:
+      name: 0.1.5
+      value: 0.1.5
+    needs_online: true
+    remote:
+      name: 0.1.5
+      release_notes: https://github.com/jneilliii/OctoPrint-Python3PluginCompatibilityCheck/releases/tag/0.1.5
+      value: 0.1.5
+  online: true
+  possible: true
+  timestamp: 1619845542.686991
+UltimakerFormatPackage:
+  available: false
+  disabled: false
+  error: null
+  hash: 7438d345a18e0db10f4aea00a716d837
+  information:
+    local:
+      name: 0.2.2
+      value: 0.2.2
+    needs_online: true
+    remote:
+      name: 0.2.2
+      release_notes: https://github.com/jneilliii/OctoPrint-UltimakerFormatPackage/releases/tag/0.2.2
+      value: 0.2.2
+  online: true
+  possible: true
+  timestamp: 1619845543.317982
+__version: 1.5.3
+bedlevelvisualizer:
+  available: true
+  disabled: false
+  error: null
+  hash: f2203ee39d7a17fd354c684bbd9c78b0
+  information:
+    local:
+      name: 1.0.0
+      value: 1.0.0
+    needs_online: true
+    remote:
+      name: 1.0.1
+      release_notes: https://github.com/jneilliii/OctoPrint-BedLevelVisualizer/releases/tag/1.0.1
+      value: 1.0.1
+  online: true
+  possible: true
+  timestamp: 1619875304.30644
+consolidate_temp_control:
+  available: false
+  disabled: false
+  error: null
+  hash: d3c8e46f5d67f80142836a78304bcbfb
+  information:
+    local:
+      name: 0.1.8
+      value: 0.1.8
+    needs_online: true
+    remote:
+      name: 0.1.8
+      release_notes: https://github.com/jneilliii/OctoPrint-ConsolidateTempControl/releases/tag/0.1.8
+      value: 0.1.8
+  online: true
+  possible: true
+  timestamp: 1619845542.686849
+detailedprogress:
+  available: false
+  disabled: false
+  error: null
+  hash: fac323eb84e22dff7800973aa424c7df
+  information:
+    local:
+      name: 0.2.7
+      value: 0.2.7
+    needs_online: true
+    remote:
+      name: 0.2.7
+      release_notes: https://github.com/tpmullan/OctoPrint-DetailedProgress/releases/tag/0.2.7
+      value: 0.2.7
+  online: true
+  possible: true
+  timestamp: 1619845543.055884
+display_eta:
+  available: false
+  disabled: false
+  error: null
+  hash: 952ebdcd6d0623d585c1ff4a06c10991
+  information:
+    local:
+      name: 1.1.3
+      value: 1.1.3
+    needs_online: true
+    remote:
+      name: Version 1.1.3 - Bugfix release
+      release_notes: https://github.com/AlexVerrico/Octoprint-Display-ETA/releases/tag/1.1.3
+      value: 1.1.3
+  online: true
+  possible: true
+  timestamp: 1619845542.68693
+filamentmanager:
+  available: false
+  disabled: false
+  error: null
+  hash: fd8e46e0e6dde56d6c960152d00724d8
+  information:
+    local:
+      name: 1.7.2
+      value: 1.7.2
+    needs_online: true
+    remote:
+      name: V1.7.2
+      release_notes: https://github.com/OllisGit/OctoPrint-FilamentManager/releases/tag/1.7.2
+      value: 1.7.2
+  online: true
+  possible: true
+  timestamp: 1619845543.448631
+file_check:
+  available: true
+  disabled: false
+  error: null
+  hash: 78f7c4e6b507b4641b05836fcf67cb5e
+  information:
+    local:
+      name: 2020.8.7
+      value: 2020.8.7
+    needs_online: true
+    remote:
+      name: 2021.2.23
+      release_notes: https://github.com/OctoPrint/OctoPrint-FileCheck/releases/tag/2021.2.23
+      value: 2021.2.23
+  online: true
+  possible: true
+  timestamp: 1619875304.306324
+firmware_check:
+  available: false
+  disabled: false
+  error: null
+  hash: d44e53973873a2073ea9217d2b5019d0
+  information:
+    local:
+      name: 2021.2.4
+      value: 2021.2.4
+    needs_online: true
+    remote:
+      name: 2021.2.4
+      release_notes: https://github.com/OctoPrint/OctoPrint-FirmwareCheck/releases/tag/2021.2.4
+      value: 2021.2.4
+  online: true
+  possible: true
+  timestamp: 1619845543.167091
+klipper:
+  available: true
+  disabled: false
+  error: null
+  hash: 90fa650a6494133970bf0078a640238b
+  information:
+    local:
+      name: 0.3.2
+      value: 0.3.2
+    needs_online: true
+    remote:
+      name: OctoKlipper 0.3.7.2
+      release_notes: https://github.com/thelastWallE/OctoprintKlipperPlugin/releases/tag/0.3.7.2
+      value: 0.3.7.2
+  online: true
+  possible: true
+  timestamp: 1619845543.210591
+mqtt:
+  available: true
+  disabled: false
+  error: null
+  hash: dda9c649dd2473a4a83781a314e48869
+  information:
+    local:
+      name: 0.8.7
+      value: 0.8.7
+    needs_online: true
+    remote:
+      name: 0.8.9
+      release_notes: https://github.com/OctoPrint/OctoPrint-MQTT/releases/tag/v0.8.9
+      value: v0.8.9
+  online: true
+  possible: true
+  timestamp: 1619845543.049718
+octoprint:
+  available: true
+  disabled: false
+  error: null
+  hash: d9d83d21de2eebf52280d650b7843f66
+  information:
+    local:
+      name: 1.5.3
+      value: 1.5.3
+    needs_online: true
+    remote:
+      name: 1.6.0
+      release_notes: https://github.com/OctoPrint/OctoPrint/releases/tag/1.6.0
+      value: 1.6.0
+  online: true
+  possible: true
+  timestamp: 1619845543.072635
+preheat:
+  available: true
+  disabled: false
+  error: null
+  hash: 29847616ec4e7945f7e49123ea18340a
+  information:
+    local:
+      name: 0.5.1
+      value: 0.5.1
+    needs_online: true
+    remote:
+      name: Fix for the cooldown button for users with the M109 option enabled
+      release_notes: https://github.com/marian42/octoprint-preheat/releases/tag/0.7.2
+      value: 0.7.2
+  online: true
+  possible: true
+  timestamp: 1619875304.306903
+taborder:
+  available: false
+  disabled: false
+  error: null
+  hash: 8d842e490185f5053f77b8c18847409d
+  information:
+    local:
+      name: 0.5.12
+      value: 0.5.12
+    needs_online: true
+    remote:
+      name: 0.5.12
+      release_notes: https://github.com/jneilliii/OctoPrint-TabOrder/releases/tag/0.5.12
+      value: 0.5.12
+  online: true
+  possible: true
+  timestamp: 1619845543.289009
+tempsgraph:
+  available: true
+  disabled: false
+  error: null
+  hash: e4b86d027ce2e11920f2410a86cbcc80
+  information:
+    local:
+      name: 0.3.6
+      value: 0.3.6
+    needs_online: true
+    remote:
+      name: Fixes for more responsive design
+      release_notes: https://github.com/1r0b1n0/OctoPrint-Tempsgraph/releases/tag/0.3.7
+      value: 0.3.7
+  online: true
+  possible: true
+  timestamp: 1619875304.306657
+themeify:
+  available: false
+  disabled: false
+  error: null
+  hash: 086eeaf180cd135200a5363c821e8c42
+  information:
+    local:
+      name: 1.2.2
+      value: 1.2.2
+    needs_online: true
+    remote:
+      name: v1.2.2
+      release_notes: https://github.com/Birkbjo/OctoPrint-Themeify/releases/tag/v1.2.2
+      value: v1.2.2
+  online: true
+  possible: true
+  timestamp: 1619845543.200453
+uicustomizer:
+  available: true
+  disabled: false
+  error: null
+  hash: e0be8e9a4645befca99ff36775ce1569
+  information:
+    local:
+      name: 0.1.2.8
+      value: 0.1.2.8
+    needs_online: true
+    remote:
+      name: 0.1.5.8 - Hotfix for 0.1.5.7
+      release_notes: https://github.com/LazeMSS/OctoPrint-UICustomizer/releases/tag/0.1.5.8
+      value: 0.1.5.8
+  online: true
+  possible: true
+  timestamp: 1619875304.507161

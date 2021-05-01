@@ -1,0 +1,167 @@
+accessControl:
+    salt: k6mcDnDvZ4wDRZfF4SATzLZtWxVn5nrP
+api:
+    key: D752C265F433484080B997F9829ECF95
+appearance:
+    color: red
+plugins:
+    DisplayLayerProgress:
+        showAllPrinterMessages: false
+    PrintJobHistory:
+        pluginCheckActivated: false
+    action_command_notification:
+        enable: false
+    announcements:
+        _config_version: 1
+        channels:
+            _blog:
+                read_until: 1615917600
+            _important:
+                read_until: 1521111600
+            _octopi:
+                read_until: 1611568800
+            _plugins:
+                read_until: 1619672400
+            _releases:
+                read_until: 1619514900
+    bedlevelvisualizer:
+        _config_version: 1
+    discovery:
+        upnpUuid: 0c958c37-706c-4dd9-a280-c53c03644483
+    errortracking:
+        unique_id: 5f972769-3601-452b-a89a-da59e7e993bb
+    filamentmanager:
+        _config_version: 1
+        database:
+            clientID: 41c9ba0e-7083-11eb-918b-0242ac110002
+    gcodeviewer:
+        _config_version: 1
+    klipper:
+        _config_version: 2
+        configuration:
+            configpath: ~/.octoprint/printer.cfg
+    softwareupdate:
+        _config_version: 9
+    taborder:
+        _config_version: 5
+    tempsgraph:
+        startWithAutoScale: true
+    tracking:
+        enabled: true
+        unique_id: 3f79edbb-b0aa-4cab-9d83-b3fe07226a58
+    uicustomizer:
+        compressTempControls: false
+        gcodeZoom: 1
+        mainTabs:
+        -   - tab_plugin_consolidate_temp_control_link
+            - true
+            - false
+            - false
+            - textOnly
+            - '#000000'
+        -   - term_link
+            - true
+            - false
+            - fas fa-terminal
+            - textOnly
+            - false
+        -   - tab_plugin_klipper_main_link
+            - true
+            - false
+            - false
+            - textOnly
+            - '#000000'
+        -   - timelapse_link
+            - true
+            - false
+            - fas fa-film
+            - textOnly
+            - false
+        -   - gcode_link
+            - true
+            - false
+            - fab fa-codepen
+            - textOnly
+            - false
+        -   - tab_plugin_bedlevelvisualizer_link
+            - true
+            - false
+            - false
+            - textOnly
+            - '#000000'
+        -   - tab_plugin_PrintJobHistory_link
+            - true
+            - false
+            - false
+            - textOnly
+            - '#000000'
+        rows:
+        -   _00#sidebar_plugin_action_command_notification_wrapper: true
+            _01#state_wrapper: true
+            _02#files_wrapper: true
+            _03#sidebar_plugin_firmware_check_warning_wrapper: true
+            _04#sidebar_plugin_firmware_check_info_wrapper: true
+            _05#sidebar_plugin_klipper_wrapper: true
+            _06#UICWebCamWidget: false
+            _07#UICGcodeVWidget: false
+        -   _00div.UICmainTabs: true
+            _01#sidebar_plugin_filamentmanager_wrapper: false
+        - {}
+        theme: null
+        topIconSort:
+        - navbar_plugin_PrintJobHistory
+        - navbar_plugin_display_eta
+        - navbar_plugin_DisplayLayerProgress
+        - navbar_plugin_action_command_prompt
+        - navbar_plugin_klipper
+        - navbar_plugin_logging_seriallog
+        - navbar_plugin_logging_plugintimingslog
+        widths:
+        - '3'
+        - '9'
+        - '0'
+    virtual_printer:
+        _config_version: 1
+printerProfiles:
+    default: _default
+serial:
+    additionalPorts:
+    - /tmp/printer
+    autoconnect: true
+    disconnectOnErrors: false
+    logPositionOnCancel: true
+    port: /tmp/printer
+server:
+    firstRun: false
+    onlineCheck:
+        enabled: true
+    pluginBlacklist:
+        enabled: true
+    secretKey: OiCWKuRHVsHBdlr68RijT8mdqpFc0nIH
+    seenWizards:
+        backup: null
+        corewizard: 4
+        tracking: null
+temperature:
+    profiles:
+    -   bed: 100
+        chamber: null
+        extruder: 210
+        name: ABS
+    -   bed: 60
+        chamber: null
+        extruder: 180
+        name: PLA
+terminalFilters:
+-   name: Suppress temperature messages
+    regex: '(Send: (N\d+\s+)?M105)|(Recv:\s+(ok\s+((P|B|N)\d+\s+)*)?(B|T\d*):\d+)'
+-   name: Suppress SD status messages
+    regex: '(Send: (N\d+\s+)?M27)|(Recv: SD printing byte)|(Recv: Not SD printing)'
+-   name: Suppress wait responses
+    regex: 'Recv: wait'
+-   name: Suppress processing responses
+    regex: 'Recv: (echo:\s*)?busy:\s*processing'
+-   name: Suppress printjob movements
+    regex: 'Send: N\d+ G[01]+.*'
+-   name: Suppress ok messages
+    regex: 'Recv: ok'

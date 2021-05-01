@@ -1,0 +1,472 @@
+2021-02-26 20:21:44,975   /opt/octoprint/venv/bin/python2 -m pip --disable-pip-version-check install https://github.com/OllisGit/OctoPrint-DisplayLayerProgress/releases/latest/download/master.zip --no-cache-dir
+2021-02-26 20:21:47,844 > Collecting https://github.com/OllisGit/OctoPrint-DisplayLayerProgress/releases/latest/download/master.zip
+2021-02-26 20:21:47,846 > Downloading https://github.com/OllisGit/OctoPrint-DisplayLayerProgress/releases/latest/download/master.zip (387 kB)
+2021-02-26 20:21:49,559 > Requirement already satisfied: OctoPrint in /opt/octoprint/venv/lib/python2.7/site-packages (from DisplayLayerProgress==1.25.4) (1.5.3)
+2021-02-26 20:21:49,560 > Requirement already satisfied: OctoPrint-FileCheck>=2020.08.07 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (2020.8.7)
+2021-02-26 20:21:49,560 > Requirement already satisfied: flask<2,>=1.1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (1.1.2)
+2021-02-26 20:21:49,560 > Requirement already satisfied: sarge==0.1.5post0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (0.1.5.post0)
+2021-02-26 20:21:49,561 > Requirement already satisfied: websocket-client<1,>=0.57 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (0.57.0)
+2021-02-26 20:21:49,561 > Requirement already satisfied: netifaces<1,>=0.10.9 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (0.10.9)
+2021-02-26 20:21:49,561 > Requirement already satisfied: pylru<2,>=1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (1.2.0)
+2021-02-26 20:21:49,562 > Requirement already satisfied: Click<8,>=7.1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (7.1.2)
+2021-02-26 20:21:49,562 > Requirement already satisfied: wrapt<2,>=1.12.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (1.12.1)
+2021-02-26 20:21:49,562 > Requirement already satisfied: blinker<2,>=1.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (1.4)
+2021-02-26 20:21:49,562 > Requirement already satisfied: unidecode<0.05,>=0.04.14 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (0.4.21)
+2021-02-26 20:21:49,562 > Requirement already satisfied: OctoPrint-FirmwareCheck>=2020.09.23 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (2021.2.4)
+2021-02-26 20:21:49,562 > Requirement already satisfied: PyYAML<6,>=5.3.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (5.4.1)
+2021-02-26 20:21:49,562 > Requirement already satisfied: rsa==4.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (4.0)
+2021-02-26 20:21:49,563 > Requirement already satisfied: scandir<2,>=1.10; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (1.10.0)
+2021-02-26 20:21:49,563 > Requirement already satisfied: Flask-Login<0.6,>=0.5 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (0.5.0)
+2021-02-26 20:21:49,563 > Requirement already satisfied: markdown<3.2,>=3.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (3.1.1)
+2021-02-26 20:21:49,563 > Requirement already satisfied: feedparser<6,>=5.2.1; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (5.2.1)
+2021-02-26 20:21:49,563 > Requirement already satisfied: psutil<6,>=5.7 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (5.8.0)
+2021-02-26 20:21:49,563 > Requirement already satisfied: sentry-sdk<1,>=0.15.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (0.19.5)
+2021-02-26 20:21:49,563 > Requirement already satisfied: futures<4,>=3.3; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (3.3.0)
+2021-02-26 20:21:49,564 > Requirement already satisfied: watchdog==0.10.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (0.10.4)
+2021-02-26 20:21:49,564 > Requirement already satisfied: requests<3,>=2.23.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (2.25.1)
+2021-02-26 20:21:49,564 > Requirement already satisfied: markupsafe<2.0,>=1.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (1.1.1)
+2021-02-26 20:21:49,564 > Requirement already satisfied: future<1,>=0.18.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (0.18.2)
+2021-02-26 20:21:49,564 > Requirement already satisfied: cachelib<1,>=0.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (0.1.1)
+2021-02-26 20:21:49,564 > Requirement already satisfied: chainmap<2,>=1.0.3; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (1.0.3)
+2021-02-26 20:21:49,565 > Requirement already satisfied: Flask-Babel<2,>=1.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (1.0.0)
+2021-02-26 20:21:49,565 > Requirement already satisfied: frozendict<2,>=1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (1.2)
+2021-02-26 20:21:49,565 > Requirement already satisfied: werkzeug<2,>=1.0.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (1.0.1)
+2021-02-26 20:21:49,565 > Requirement already satisfied: tornado==5.1.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (5.1.1)
+2021-02-26 20:21:49,565 > Requirement already satisfied: pkginfo<2,>=1.5.0.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (1.7.0)
+2021-02-26 20:21:49,565 > Requirement already satisfied: enum34<1.2,>=1.1.10; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (1.1.10)
+2021-02-26 20:21:49,565 > Requirement already satisfied: typing<4,>=3.7.4.1; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (3.7.4.3)
+2021-02-26 20:21:49,566 > Requirement already satisfied: Jinja2<3,>=2.11.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (2.11.3)
+2021-02-26 20:21:49,566 > Requirement already satisfied: netaddr<1,>=0.7.19 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (0.8.0)
+2021-02-26 20:21:49,566 > Requirement already satisfied: emoji<1,>=0.5.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (0.6.0)
+2021-02-26 20:21:49,566 > Requirement already satisfied: pyserial<4,>=3.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (3.5)
+2021-02-26 20:21:49,566 > Requirement already satisfied: Flask-Assets<3,>=2.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (2.0)
+2021-02-26 20:21:49,566 > Requirement already satisfied: regex!=2018.11.6 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (2020.11.13)
+2021-02-26 20:21:49,567 > Requirement already satisfied: itsdangerous<2,>=1.1.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (1.1.0)
+2021-02-26 20:21:49,567 > Requirement already satisfied: semantic-version<3,>=2.8.5 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (2.8.5)
+2021-02-26 20:21:49,567 > Requirement already satisfied: monotonic<2,>=1.5; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (1.5)
+2021-02-26 20:21:49,567 > Requirement already satisfied: filetype<2,>=1.0.7 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->DisplayLayerProgress==1.25.4) (1.0.7)
+2021-02-26 20:21:49,567 > Requirement already satisfied: six in /opt/octoprint/venv/lib/python2.7/site-packages (from websocket-client<1,>=0.57->OctoPrint->DisplayLayerProgress==1.25.4) (1.15.0)
+2021-02-26 20:21:49,567 > Requirement already satisfied: pyasn1>=0.1.3 in /opt/octoprint/venv/lib/python2.7/site-packages (from rsa==4.0->OctoPrint->DisplayLayerProgress==1.25.4) (0.4.8)
+2021-02-26 20:21:49,567 > Requirement already satisfied: setuptools>=36 in /opt/octoprint/venv/lib/python2.7/site-packages (from markdown<3.2,>=3.1->OctoPrint->DisplayLayerProgress==1.25.4) (44.1.1)
+2021-02-26 20:21:49,567 > Requirement already satisfied: urllib3>=1.10.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from sentry-sdk<1,>=0.15.1->OctoPrint->DisplayLayerProgress==1.25.4) (1.26.3)
+2021-02-26 20:21:49,567 > Requirement already satisfied: certifi in /opt/octoprint/venv/lib/python2.7/site-packages (from sentry-sdk<1,>=0.15.1->OctoPrint->DisplayLayerProgress==1.25.4) (2020.12.5)
+2021-02-26 20:21:49,568 > Requirement already satisfied: pathtools>=0.1.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from watchdog==0.10.4->OctoPrint->DisplayLayerProgress==1.25.4) (0.1.2)
+2021-02-26 20:21:49,568 > Requirement already satisfied: chardet<5,>=3.0.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from requests<3,>=2.23.0->OctoPrint->DisplayLayerProgress==1.25.4) (4.0.0)
+2021-02-26 20:21:49,568 > Requirement already satisfied: idna<3,>=2.5 in /opt/octoprint/venv/lib/python2.7/site-packages (from requests<3,>=2.23.0->OctoPrint->DisplayLayerProgress==1.25.4) (2.10)
+2021-02-26 20:21:49,568 > Requirement already satisfied: Babel>=2.3 in /opt/octoprint/venv/lib/python2.7/site-packages (from Flask-Babel<2,>=1.0->OctoPrint->DisplayLayerProgress==1.25.4) (2.9.0)
+2021-02-26 20:21:49,568 > Requirement already satisfied: pytz in /opt/octoprint/venv/lib/python2.7/site-packages (from Flask-Babel<2,>=1.0->OctoPrint->DisplayLayerProgress==1.25.4) (2021.1)
+2021-02-26 20:21:49,568 > Requirement already satisfied: backports-abc>=0.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from tornado==5.1.1->OctoPrint->DisplayLayerProgress==1.25.4) (0.5)
+2021-02-26 20:21:49,568 > Requirement already satisfied: singledispatch in /opt/octoprint/venv/lib/python2.7/site-packages (from tornado==5.1.1->OctoPrint->DisplayLayerProgress==1.25.4) (3.4.0.3)
+2021-02-26 20:21:49,568 > Requirement already satisfied: importlib-resources; python_version < "3.7" in /opt/octoprint/venv/lib/python2.7/site-packages (from netaddr<1,>=0.7.19->OctoPrint->DisplayLayerProgress==1.25.4) (3.3.1)
+2021-02-26 20:21:49,568 > Requirement already satisfied: webassets>=2.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from Flask-Assets<3,>=2.0->OctoPrint->DisplayLayerProgress==1.25.4) (2.0)
+2021-02-26 20:21:49,568 > Requirement already satisfied: contextlib2; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from importlib-resources; python_version < "3.7"->netaddr<1,>=0.7.19->OctoPrint->DisplayLayerProgress==1.25.4) (0.6.0.post1)
+2021-02-26 20:21:49,568 > Requirement already satisfied: zipp>=0.4; python_version < "3.8" in /opt/octoprint/venv/lib/python2.7/site-packages (from importlib-resources; python_version < "3.7"->netaddr<1,>=0.7.19->OctoPrint->DisplayLayerProgress==1.25.4) (1.2.0)
+2021-02-26 20:21:49,568 > Requirement already satisfied: pathlib2; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from importlib-resources; python_version < "3.7"->netaddr<1,>=0.7.19->OctoPrint->DisplayLayerProgress==1.25.4) (2.3.5)
+2021-02-26 20:21:49,568 > Building wheels for collected packages: DisplayLayerProgress
+2021-02-26 20:21:49,568 > Building wheel for DisplayLayerProgress (setup.py): started
+2021-02-26 20:21:50,570 > Building wheel for DisplayLayerProgress (setup.py): finished with status 'done'
+2021-02-26 20:21:50,571 > Created wheel for DisplayLayerProgress: filename=DisplayLayerProgress-1.25.4-py2-none-any.whl size=84934 sha256=ac8573eb5349ae81751c858fd857b336dd2e599eec7a4f89fab7ae89b0d68950
+2021-02-26 20:21:50,572 > Stored in directory: /tmp/pip-ephem-wheel-cache-CdRfqR/wheels/ec/8d/c0/268ec064dd1b6689506a19a49fa243d2b21f05c130b07cf477
+2021-02-26 20:21:50,573 > Successfully built DisplayLayerProgress
+2021-02-26 20:21:50,573 > Installing collected packages: DisplayLayerProgress
+2021-02-26 20:21:50,574 > Attempting uninstall: DisplayLayerProgress
+2021-02-26 20:21:50,574 > Found existing installation: DisplayLayerProgress 1.25.3
+2021-02-26 20:21:50,574 > Uninstalling DisplayLayerProgress-1.25.3:
+2021-02-26 20:21:50,574 > Successfully uninstalled DisplayLayerProgress-1.25.3
+2021-02-26 20:21:50,574 > Successfully installed DisplayLayerProgress-1.25.4
+2021-02-26 20:21:50,630   /opt/octoprint/venv/bin/python2 -m pip --disable-pip-version-check install https://github.com/OctoPrint/OctoPrint-FileCheck/archive/2021.2.23.zip --no-cache-dir
+2021-02-26 20:21:53,397 > Collecting https://github.com/OctoPrint/OctoPrint-FileCheck/archive/2021.2.23.zip
+2021-02-26 20:21:53,398 > Downloading https://github.com/OctoPrint/OctoPrint-FileCheck/archive/2021.2.23.zip (56 kB)
+2021-02-26 20:21:53,399 > Building wheels for collected packages: OctoPrint-FileCheck
+2021-02-26 20:21:53,400 > Building wheel for OctoPrint-FileCheck (setup.py): started
+2021-02-26 20:21:53,400 > Building wheel for OctoPrint-FileCheck (setup.py): finished with status 'done'
+2021-02-26 20:21:53,401 > Created wheel for OctoPrint-FileCheck: filename=OctoPrint_FileCheck-2021.2.23-py2.py3-none-any.whl size=19821 sha256=7e211a3d06a3373652ac05d3a5f8647fbec93ef97d0e409f4b188aed08e5f487
+2021-02-26 20:21:53,401 > Stored in directory: /tmp/pip-ephem-wheel-cache-ycE0nU/wheels/9d/c3/4d/1d7e2ebcbf750d7b80e09623824f9d15750a8c3050416d4167
+2021-02-26 20:21:53,401 > Successfully built OctoPrint-FileCheck
+2021-02-26 20:21:53,401 > Installing collected packages: OctoPrint-FileCheck
+2021-02-26 20:21:53,402 > Attempting uninstall: OctoPrint-FileCheck
+2021-02-26 20:21:53,402 > Found existing installation: OctoPrint-FileCheck 2020.8.7
+2021-02-26 20:21:53,402 > Uninstalling OctoPrint-FileCheck-2020.8.7:
+2021-02-26 20:21:53,403 > Successfully uninstalled OctoPrint-FileCheck-2020.8.7
+2021-02-26 20:21:53,403 > Successfully installed OctoPrint-FileCheck-2021.2.23
+2021-02-26 20:21:53,454   /opt/octoprint/venv/bin/python2 -m pip --disable-pip-version-check install https://github.com/marian42/octoprint-preheat/archive/0.6.0.zip --no-cache-dir
+2021-02-26 20:21:56,355 > Collecting https://github.com/marian42/octoprint-preheat/archive/0.6.0.zip
+2021-02-26 20:21:56,355 > Downloading https://github.com/marian42/octoprint-preheat/archive/0.6.0.zip
+2021-02-26 20:21:56,356 > Requirement already satisfied: OctoPrint in /opt/octoprint/venv/lib/python2.7/site-packages (from Preheat==0.6.0) (1.5.3)
+2021-02-26 20:21:56,356 > Requirement already satisfied: OctoPrint-FileCheck>=2020.08.07 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (2021.2.23)
+2021-02-26 20:21:56,356 > Requirement already satisfied: flask<2,>=1.1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (1.1.2)
+2021-02-26 20:21:56,356 > Requirement already satisfied: sarge==0.1.5post0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (0.1.5.post0)
+2021-02-26 20:21:56,357 > Requirement already satisfied: websocket-client<1,>=0.57 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (0.57.0)
+2021-02-26 20:21:56,357 > Requirement already satisfied: netifaces<1,>=0.10.9 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (0.10.9)
+2021-02-26 20:21:56,357 > Requirement already satisfied: pylru<2,>=1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (1.2.0)
+2021-02-26 20:21:56,357 > Requirement already satisfied: Click<8,>=7.1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (7.1.2)
+2021-02-26 20:21:56,357 > Requirement already satisfied: wrapt<2,>=1.12.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (1.12.1)
+2021-02-26 20:21:56,357 > Requirement already satisfied: blinker<2,>=1.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (1.4)
+2021-02-26 20:21:56,357 > Requirement already satisfied: unidecode<0.05,>=0.04.14 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (0.4.21)
+2021-02-26 20:21:56,357 > Requirement already satisfied: OctoPrint-FirmwareCheck>=2020.09.23 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (2021.2.4)
+2021-02-26 20:21:56,357 > Requirement already satisfied: PyYAML<6,>=5.3.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (5.4.1)
+2021-02-26 20:21:56,358 > Requirement already satisfied: rsa==4.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (4.0)
+2021-02-26 20:21:56,358 > Requirement already satisfied: scandir<2,>=1.10; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (1.10.0)
+2021-02-26 20:21:56,358 > Requirement already satisfied: Flask-Login<0.6,>=0.5 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (0.5.0)
+2021-02-26 20:21:56,358 > Requirement already satisfied: markdown<3.2,>=3.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (3.1.1)
+2021-02-26 20:21:56,358 > Requirement already satisfied: psutil<6,>=5.7 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (5.8.0)
+2021-02-26 20:21:56,358 > Requirement already satisfied: sentry-sdk<1,>=0.15.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (0.19.5)
+2021-02-26 20:21:56,358 > Requirement already satisfied: futures<4,>=3.3; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (3.3.0)
+2021-02-26 20:21:56,358 > Requirement already satisfied: feedparser<6,>=5.2.1; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (5.2.1)
+2021-02-26 20:21:56,358 > Requirement already satisfied: watchdog==0.10.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (0.10.4)
+2021-02-26 20:21:56,359 > Requirement already satisfied: requests<3,>=2.23.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (2.25.1)
+2021-02-26 20:21:56,359 > Requirement already satisfied: markupsafe<2.0,>=1.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (1.1.1)
+2021-02-26 20:21:56,359 > Requirement already satisfied: future<1,>=0.18.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (0.18.2)
+2021-02-26 20:21:56,359 > Requirement already satisfied: cachelib<1,>=0.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (0.1.1)
+2021-02-26 20:21:56,359 > Requirement already satisfied: chainmap<2,>=1.0.3; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (1.0.3)
+2021-02-26 20:21:56,359 > Requirement already satisfied: Flask-Babel<2,>=1.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (1.0.0)
+2021-02-26 20:21:56,359 > Requirement already satisfied: frozendict<2,>=1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (1.2)
+2021-02-26 20:21:56,359 > Requirement already satisfied: werkzeug<2,>=1.0.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (1.0.1)
+2021-02-26 20:21:56,359 > Requirement already satisfied: tornado==5.1.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (5.1.1)
+2021-02-26 20:21:56,359 > Requirement already satisfied: pkginfo<2,>=1.5.0.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (1.7.0)
+2021-02-26 20:21:56,360 > Requirement already satisfied: enum34<1.2,>=1.1.10; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (1.1.10)
+2021-02-26 20:21:56,360 > Requirement already satisfied: typing<4,>=3.7.4.1; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (3.7.4.3)
+2021-02-26 20:21:56,360 > Requirement already satisfied: Jinja2<3,>=2.11.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (2.11.3)
+2021-02-26 20:21:56,360 > Requirement already satisfied: netaddr<1,>=0.7.19 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (0.8.0)
+2021-02-26 20:21:56,360 > Requirement already satisfied: emoji<1,>=0.5.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (0.6.0)
+2021-02-26 20:21:56,360 > Requirement already satisfied: pyserial<4,>=3.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (3.5)
+2021-02-26 20:21:56,360 > Requirement already satisfied: Flask-Assets<3,>=2.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (2.0)
+2021-02-26 20:21:56,360 > Requirement already satisfied: regex!=2018.11.6 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (2020.11.13)
+2021-02-26 20:21:56,360 > Requirement already satisfied: itsdangerous<2,>=1.1.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (1.1.0)
+2021-02-26 20:21:56,360 > Requirement already satisfied: semantic-version<3,>=2.8.5 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (2.8.5)
+2021-02-26 20:21:56,361 > Requirement already satisfied: monotonic<2,>=1.5; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (1.5)
+2021-02-26 20:21:56,361 > Requirement already satisfied: filetype<2,>=1.0.7 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Preheat==0.6.0) (1.0.7)
+2021-02-26 20:21:56,361 > Requirement already satisfied: six in /opt/octoprint/venv/lib/python2.7/site-packages (from websocket-client<1,>=0.57->OctoPrint->Preheat==0.6.0) (1.15.0)
+2021-02-26 20:21:56,361 > Requirement already satisfied: pyasn1>=0.1.3 in /opt/octoprint/venv/lib/python2.7/site-packages (from rsa==4.0->OctoPrint->Preheat==0.6.0) (0.4.8)
+2021-02-26 20:21:56,361 > Requirement already satisfied: setuptools>=36 in /opt/octoprint/venv/lib/python2.7/site-packages (from markdown<3.2,>=3.1->OctoPrint->Preheat==0.6.0) (44.1.1)
+2021-02-26 20:21:56,361 > Requirement already satisfied: urllib3>=1.10.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from sentry-sdk<1,>=0.15.1->OctoPrint->Preheat==0.6.0) (1.26.3)
+2021-02-26 20:21:56,361 > Requirement already satisfied: certifi in /opt/octoprint/venv/lib/python2.7/site-packages (from sentry-sdk<1,>=0.15.1->OctoPrint->Preheat==0.6.0) (2020.12.5)
+2021-02-26 20:21:56,361 > Requirement already satisfied: pathtools>=0.1.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from watchdog==0.10.4->OctoPrint->Preheat==0.6.0) (0.1.2)
+2021-02-26 20:21:56,361 > Requirement already satisfied: chardet<5,>=3.0.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from requests<3,>=2.23.0->OctoPrint->Preheat==0.6.0) (4.0.0)
+2021-02-26 20:21:56,361 > Requirement already satisfied: idna<3,>=2.5 in /opt/octoprint/venv/lib/python2.7/site-packages (from requests<3,>=2.23.0->OctoPrint->Preheat==0.6.0) (2.10)
+2021-02-26 20:21:56,362 > Requirement already satisfied: Babel>=2.3 in /opt/octoprint/venv/lib/python2.7/site-packages (from Flask-Babel<2,>=1.0->OctoPrint->Preheat==0.6.0) (2.9.0)
+2021-02-26 20:21:56,362 > Requirement already satisfied: pytz in /opt/octoprint/venv/lib/python2.7/site-packages (from Flask-Babel<2,>=1.0->OctoPrint->Preheat==0.6.0) (2021.1)
+2021-02-26 20:21:56,362 > Requirement already satisfied: backports-abc>=0.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from tornado==5.1.1->OctoPrint->Preheat==0.6.0) (0.5)
+2021-02-26 20:21:56,362 > Requirement already satisfied: singledispatch in /opt/octoprint/venv/lib/python2.7/site-packages (from tornado==5.1.1->OctoPrint->Preheat==0.6.0) (3.4.0.3)
+2021-02-26 20:21:56,362 > Requirement already satisfied: importlib-resources; python_version < "3.7" in /opt/octoprint/venv/lib/python2.7/site-packages (from netaddr<1,>=0.7.19->OctoPrint->Preheat==0.6.0) (3.3.1)
+2021-02-26 20:21:56,362 > Requirement already satisfied: webassets>=2.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from Flask-Assets<3,>=2.0->OctoPrint->Preheat==0.6.0) (2.0)
+2021-02-26 20:21:56,362 > Requirement already satisfied: contextlib2; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from importlib-resources; python_version < "3.7"->netaddr<1,>=0.7.19->OctoPrint->Preheat==0.6.0) (0.6.0.post1)
+2021-02-26 20:21:56,362 > Requirement already satisfied: zipp>=0.4; python_version < "3.8" in /opt/octoprint/venv/lib/python2.7/site-packages (from importlib-resources; python_version < "3.7"->netaddr<1,>=0.7.19->OctoPrint->Preheat==0.6.0) (1.2.0)
+2021-02-26 20:21:56,362 > Requirement already satisfied: pathlib2; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from importlib-resources; python_version < "3.7"->netaddr<1,>=0.7.19->OctoPrint->Preheat==0.6.0) (2.3.5)
+2021-02-26 20:21:56,362 > Building wheels for collected packages: Preheat
+2021-02-26 20:21:56,363 > Building wheel for Preheat (setup.py): started
+2021-02-26 20:21:56,363 > Building wheel for Preheat (setup.py): finished with status 'done'
+2021-02-26 20:21:56,363 > Created wheel for Preheat: filename=Preheat-0.6.0-py2-none-any.whl size=7712 sha256=c262e4516d8bf65dedb8b65339ed613c72149325ac693b445c0a2afc7c70b5e5
+2021-02-26 20:21:56,363 > Stored in directory: /tmp/pip-ephem-wheel-cache-w5e63x/wheels/ef/8b/47/456aab79492b1e12990bf5af5681766385ce6d6245018e72e7
+2021-02-26 20:21:56,363 > Successfully built Preheat
+2021-02-26 20:21:56,363 > Installing collected packages: Preheat
+2021-02-26 20:21:56,363 > Attempting uninstall: Preheat
+2021-02-26 20:21:56,363 > Found existing installation: Preheat 0.5.1
+2021-02-26 20:21:56,363 > Uninstalling Preheat-0.5.1:
+2021-02-26 20:21:56,363 > Successfully uninstalled Preheat-0.5.1
+2021-02-26 20:21:56,364 > Successfully installed Preheat-0.6.0
+2021-02-26 20:21:56,412   /opt/octoprint/venv/bin/python2 -m pip --disable-pip-version-check install https://github.com/LazeMSS/OctoPrint-UICustomizer/archive/0.1.5.3.zip --no-cache-dir
+2021-02-26 20:21:58,385 > Collecting https://github.com/LazeMSS/OctoPrint-UICustomizer/archive/0.1.5.3.zip
+2021-02-26 20:21:58,385 > Downloading https://github.com/LazeMSS/OctoPrint-UICustomizer/archive/0.1.5.3.zip
+2021-02-26 20:22:00,035 > Requirement already satisfied: OctoPrint in /opt/octoprint/venv/lib/python2.7/site-packages (from UI-Customizer==0.1.5.3) (1.5.3)
+2021-02-26 20:22:00,036 > Requirement already satisfied: feedparser<6,>=5.2.1; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (5.2.1)
+2021-02-26 20:22:00,037 > Requirement already satisfied: OctoPrint-FileCheck>=2020.08.07 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (2021.2.23)
+2021-02-26 20:22:00,038 > Requirement already satisfied: flask<2,>=1.1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (1.1.2)
+2021-02-26 20:22:00,038 > Requirement already satisfied: sarge==0.1.5post0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (0.1.5.post0)
+2021-02-26 20:22:00,038 > Requirement already satisfied: websocket-client<1,>=0.57 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (0.57.0)
+2021-02-26 20:22:00,039 > Requirement already satisfied: netifaces<1,>=0.10.9 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (0.10.9)
+2021-02-26 20:22:00,039 > Requirement already satisfied: pylru<2,>=1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (1.2.0)
+2021-02-26 20:22:00,039 > Requirement already satisfied: Click<8,>=7.1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (7.1.2)
+2021-02-26 20:22:00,040 > Requirement already satisfied: wrapt<2,>=1.12.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (1.12.1)
+2021-02-26 20:22:00,040 > Requirement already satisfied: blinker<2,>=1.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (1.4)
+2021-02-26 20:22:00,040 > Requirement already satisfied: unidecode<0.05,>=0.04.14 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (0.4.21)
+2021-02-26 20:22:00,040 > Requirement already satisfied: OctoPrint-FirmwareCheck>=2020.09.23 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (2021.2.4)
+2021-02-26 20:22:00,040 > Requirement already satisfied: PyYAML<6,>=5.3.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (5.4.1)
+2021-02-26 20:22:00,041 > Requirement already satisfied: rsa==4.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (4.0)
+2021-02-26 20:22:00,041 > Requirement already satisfied: scandir<2,>=1.10; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (1.10.0)
+2021-02-26 20:22:00,041 > Requirement already satisfied: Flask-Login<0.6,>=0.5 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (0.5.0)
+2021-02-26 20:22:00,041 > Requirement already satisfied: markdown<3.2,>=3.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (3.1.1)
+2021-02-26 20:22:00,042 > Requirement already satisfied: psutil<6,>=5.7 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (5.8.0)
+2021-02-26 20:22:00,042 > Requirement already satisfied: sentry-sdk<1,>=0.15.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (0.19.5)
+2021-02-26 20:22:00,042 > Requirement already satisfied: futures<4,>=3.3; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (3.3.0)
+2021-02-26 20:22:00,042 > Requirement already satisfied: watchdog==0.10.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (0.10.4)
+2021-02-26 20:22:00,043 > Requirement already satisfied: requests<3,>=2.23.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (2.25.1)
+2021-02-26 20:22:00,043 > Requirement already satisfied: markupsafe<2.0,>=1.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (1.1.1)
+2021-02-26 20:22:00,043 > Requirement already satisfied: future<1,>=0.18.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (0.18.2)
+2021-02-26 20:22:00,043 > Requirement already satisfied: cachelib<1,>=0.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (0.1.1)
+2021-02-26 20:22:00,043 > Requirement already satisfied: chainmap<2,>=1.0.3; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (1.0.3)
+2021-02-26 20:22:00,043 > Requirement already satisfied: Flask-Babel<2,>=1.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (1.0.0)
+2021-02-26 20:22:00,043 > Requirement already satisfied: frozendict<2,>=1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (1.2)
+2021-02-26 20:22:00,043 > Requirement already satisfied: werkzeug<2,>=1.0.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (1.0.1)
+2021-02-26 20:22:00,043 > Requirement already satisfied: tornado==5.1.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (5.1.1)
+2021-02-26 20:22:00,043 > Requirement already satisfied: pkginfo<2,>=1.5.0.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (1.7.0)
+2021-02-26 20:22:00,043 > Requirement already satisfied: enum34<1.2,>=1.1.10; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (1.1.10)
+2021-02-26 20:22:00,043 > Requirement already satisfied: typing<4,>=3.7.4.1; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (3.7.4.3)
+2021-02-26 20:22:00,044 > Requirement already satisfied: Jinja2<3,>=2.11.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (2.11.3)
+2021-02-26 20:22:00,044 > Requirement already satisfied: netaddr<1,>=0.7.19 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (0.8.0)
+2021-02-26 20:22:00,044 > Requirement already satisfied: emoji<1,>=0.5.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (0.6.0)
+2021-02-26 20:22:00,044 > Requirement already satisfied: pyserial<4,>=3.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (3.5)
+2021-02-26 20:22:00,044 > Requirement already satisfied: Flask-Assets<3,>=2.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (2.0)
+2021-02-26 20:22:00,044 > Requirement already satisfied: regex!=2018.11.6 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (2020.11.13)
+2021-02-26 20:22:00,044 > Requirement already satisfied: itsdangerous<2,>=1.1.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (1.1.0)
+2021-02-26 20:22:00,044 > Requirement already satisfied: semantic-version<3,>=2.8.5 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (2.8.5)
+2021-02-26 20:22:00,044 > Requirement already satisfied: monotonic<2,>=1.5; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (1.5)
+2021-02-26 20:22:00,044 > Requirement already satisfied: filetype<2,>=1.0.7 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.3) (1.0.7)
+2021-02-26 20:22:00,044 > Requirement already satisfied: six in /opt/octoprint/venv/lib/python2.7/site-packages (from websocket-client<1,>=0.57->OctoPrint->UI-Customizer==0.1.5.3) (1.15.0)
+2021-02-26 20:22:00,044 > Requirement already satisfied: pyasn1>=0.1.3 in /opt/octoprint/venv/lib/python2.7/site-packages (from rsa==4.0->OctoPrint->UI-Customizer==0.1.5.3) (0.4.8)
+2021-02-26 20:22:00,044 > Requirement already satisfied: setuptools>=36 in /opt/octoprint/venv/lib/python2.7/site-packages (from markdown<3.2,>=3.1->OctoPrint->UI-Customizer==0.1.5.3) (44.1.1)
+2021-02-26 20:22:00,044 > Requirement already satisfied: urllib3>=1.10.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from sentry-sdk<1,>=0.15.1->OctoPrint->UI-Customizer==0.1.5.3) (1.26.3)
+2021-02-26 20:22:00,044 > Requirement already satisfied: certifi in /opt/octoprint/venv/lib/python2.7/site-packages (from sentry-sdk<1,>=0.15.1->OctoPrint->UI-Customizer==0.1.5.3) (2020.12.5)
+2021-02-26 20:22:00,045 > Requirement already satisfied: pathtools>=0.1.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from watchdog==0.10.4->OctoPrint->UI-Customizer==0.1.5.3) (0.1.2)
+2021-02-26 20:22:00,045 > Requirement already satisfied: chardet<5,>=3.0.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from requests<3,>=2.23.0->OctoPrint->UI-Customizer==0.1.5.3) (4.0.0)
+2021-02-26 20:22:00,045 > Requirement already satisfied: idna<3,>=2.5 in /opt/octoprint/venv/lib/python2.7/site-packages (from requests<3,>=2.23.0->OctoPrint->UI-Customizer==0.1.5.3) (2.10)
+2021-02-26 20:22:00,045 > Requirement already satisfied: Babel>=2.3 in /opt/octoprint/venv/lib/python2.7/site-packages (from Flask-Babel<2,>=1.0->OctoPrint->UI-Customizer==0.1.5.3) (2.9.0)
+2021-02-26 20:22:00,045 > Requirement already satisfied: pytz in /opt/octoprint/venv/lib/python2.7/site-packages (from Flask-Babel<2,>=1.0->OctoPrint->UI-Customizer==0.1.5.3) (2021.1)
+2021-02-26 20:22:00,045 > Requirement already satisfied: backports-abc>=0.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from tornado==5.1.1->OctoPrint->UI-Customizer==0.1.5.3) (0.5)
+2021-02-26 20:22:00,045 > Requirement already satisfied: singledispatch in /opt/octoprint/venv/lib/python2.7/site-packages (from tornado==5.1.1->OctoPrint->UI-Customizer==0.1.5.3) (3.4.0.3)
+2021-02-26 20:22:00,045 > Requirement already satisfied: importlib-resources; python_version < "3.7" in /opt/octoprint/venv/lib/python2.7/site-packages (from netaddr<1,>=0.7.19->OctoPrint->UI-Customizer==0.1.5.3) (3.3.1)
+2021-02-26 20:22:00,045 > Requirement already satisfied: webassets>=2.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from Flask-Assets<3,>=2.0->OctoPrint->UI-Customizer==0.1.5.3) (2.0)
+2021-02-26 20:22:00,045 > Requirement already satisfied: contextlib2; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from importlib-resources; python_version < "3.7"->netaddr<1,>=0.7.19->OctoPrint->UI-Customizer==0.1.5.3) (0.6.0.post1)
+2021-02-26 20:22:00,045 > Requirement already satisfied: zipp>=0.4; python_version < "3.8" in /opt/octoprint/venv/lib/python2.7/site-packages (from importlib-resources; python_version < "3.7"->netaddr<1,>=0.7.19->OctoPrint->UI-Customizer==0.1.5.3) (1.2.0)
+2021-02-26 20:22:00,045 > Requirement already satisfied: pathlib2; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from importlib-resources; python_version < "3.7"->netaddr<1,>=0.7.19->OctoPrint->UI-Customizer==0.1.5.3) (2.3.5)
+2021-02-26 20:22:00,045 > Building wheels for collected packages: UI-Customizer
+2021-02-26 20:22:00,045 > Building wheel for UI-Customizer (setup.py): started
+2021-02-26 20:22:00,046 > Building wheel for UI-Customizer (setup.py): finished with status 'done'
+2021-02-26 20:22:00,046 > Created wheel for UI-Customizer: filename=UI_Customizer-0.1.5.3-py2-none-any.whl size=495225 sha256=8b1ad90b1a232d166cde9109a9f0a9ba97f5f605b5066c5189ca64b71587ccf4
+2021-02-26 20:22:00,046 > Stored in directory: /tmp/pip-ephem-wheel-cache-wCekjk/wheels/87/59/92/3abff7e984642e7da36d47d38012ccc64698c1005cb8b6e716
+2021-02-26 20:22:00,046 > Successfully built UI-Customizer
+2021-02-26 20:22:00,046 > Installing collected packages: UI-Customizer
+2021-02-26 20:22:00,046 > Attempting uninstall: UI-Customizer
+2021-02-26 20:22:00,046 > Found existing installation: UI-Customizer 0.1.2.8
+2021-02-26 20:22:00,046 > Uninstalling UI-Customizer-0.1.2.8:
+2021-02-26 20:22:00,046 > Successfully uninstalled UI-Customizer-0.1.2.8
+2021-02-26 20:22:00,046 > Successfully installed UI-Customizer-0.1.5.3
+2021-03-12 18:19:32,321   /opt/octoprint/venv/bin/python2 -m pip --disable-pip-version-check install https://github.com/jneilliii/OctoPrint-BedLevelVisualizer/archive/1.0.1.zip --no-cache-dir
+2021-03-12 18:19:34,943 > Collecting https://github.com/jneilliii/OctoPrint-BedLevelVisualizer/archive/1.0.1.zip
+2021-03-12 18:19:35,944 > Downloading https://github.com/jneilliii/OctoPrint-BedLevelVisualizer/archive/1.0.1.zip (2.8 MB)
+2021-03-12 18:19:38,011 > Requirement already satisfied: OctoPrint in /opt/octoprint/venv/lib/python2.7/site-packages (from Bed-Visualizer==1.0.1) (1.5.3)
+2021-03-12 18:19:38,012 > Requirement already satisfied: numpy<=1.19.2,>=1.16.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from Bed-Visualizer==1.0.1) (1.16.6)
+2021-03-12 18:19:38,012 > Requirement already satisfied: feedparser<6,>=5.2.1; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (5.2.1)
+2021-03-12 18:19:38,012 > Requirement already satisfied: OctoPrint-FileCheck>=2020.08.07 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (2021.2.23)
+2021-03-12 18:19:38,012 > Requirement already satisfied: flask<2,>=1.1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (1.1.2)
+2021-03-12 18:19:38,012 > Requirement already satisfied: sarge==0.1.5post0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (0.1.5.post0)
+2021-03-12 18:19:38,012 > Requirement already satisfied: websocket-client<1,>=0.57 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (0.57.0)
+2021-03-12 18:19:38,012 > Requirement already satisfied: netifaces<1,>=0.10.9 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (0.10.9)
+2021-03-12 18:19:38,012 > Requirement already satisfied: pylru<2,>=1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (1.2.0)
+2021-03-12 18:19:38,012 > Requirement already satisfied: Click<8,>=7.1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (7.1.2)
+2021-03-12 18:19:38,012 > Requirement already satisfied: wrapt<2,>=1.12.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (1.12.1)
+2021-03-12 18:19:38,012 > Requirement already satisfied: blinker<2,>=1.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (1.4)
+2021-03-12 18:19:38,013 > Requirement already satisfied: unidecode<0.05,>=0.04.14 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (0.4.21)
+2021-03-12 18:19:38,013 > Requirement already satisfied: OctoPrint-FirmwareCheck>=2020.09.23 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (2021.2.4)
+2021-03-12 18:19:38,013 > Requirement already satisfied: PyYAML<6,>=5.3.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (5.4.1)
+2021-03-12 18:19:38,013 > Requirement already satisfied: rsa==4.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (4.0)
+2021-03-12 18:19:38,013 > Requirement already satisfied: scandir<2,>=1.10; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (1.10.0)
+2021-03-12 18:19:38,013 > Requirement already satisfied: Flask-Login<0.6,>=0.5 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (0.5.0)
+2021-03-12 18:19:38,013 > Requirement already satisfied: markdown<3.2,>=3.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (3.1.1)
+2021-03-12 18:19:38,013 > Requirement already satisfied: psutil<6,>=5.7 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (5.8.0)
+2021-03-12 18:19:38,013 > Requirement already satisfied: sentry-sdk<1,>=0.15.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (0.19.5)
+2021-03-12 18:19:38,013 > Requirement already satisfied: futures<4,>=3.3; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (3.3.0)
+2021-03-12 18:19:38,013 > Requirement already satisfied: watchdog==0.10.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (0.10.4)
+2021-03-12 18:19:38,013 > Requirement already satisfied: requests<3,>=2.23.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (2.25.1)
+2021-03-12 18:19:38,013 > Requirement already satisfied: markupsafe<2.0,>=1.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (1.1.1)
+2021-03-12 18:19:38,013 > Requirement already satisfied: future<1,>=0.18.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (0.18.2)
+2021-03-12 18:19:38,013 > Requirement already satisfied: cachelib<1,>=0.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (0.1.1)
+2021-03-12 18:19:38,014 > Requirement already satisfied: chainmap<2,>=1.0.3; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (1.0.3)
+2021-03-12 18:19:38,014 > Requirement already satisfied: Flask-Babel<2,>=1.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (1.0.0)
+2021-03-12 18:19:38,014 > Requirement already satisfied: frozendict<2,>=1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (1.2)
+2021-03-12 18:19:38,014 > Requirement already satisfied: werkzeug<2,>=1.0.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (1.0.1)
+2021-03-12 18:19:38,014 > Requirement already satisfied: tornado==5.1.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (5.1.1)
+2021-03-12 18:19:38,014 > Requirement already satisfied: pkginfo<2,>=1.5.0.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (1.7.0)
+2021-03-12 18:19:38,014 > Requirement already satisfied: enum34<1.2,>=1.1.10; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (1.1.10)
+2021-03-12 18:19:38,014 > Requirement already satisfied: typing<4,>=3.7.4.1; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (3.7.4.3)
+2021-03-12 18:19:38,014 > Requirement already satisfied: Jinja2<3,>=2.11.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (2.11.3)
+2021-03-12 18:19:38,015 > Requirement already satisfied: netaddr<1,>=0.7.19 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (0.8.0)
+2021-03-12 18:19:38,015 > Requirement already satisfied: emoji<1,>=0.5.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (0.6.0)
+2021-03-12 18:19:38,015 > Requirement already satisfied: pyserial<4,>=3.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (3.5)
+2021-03-12 18:19:38,015 > Requirement already satisfied: Flask-Assets<3,>=2.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (2.0)
+2021-03-12 18:19:38,015 > Requirement already satisfied: regex!=2018.11.6 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (2020.11.13)
+2021-03-12 18:19:38,015 > Requirement already satisfied: itsdangerous<2,>=1.1.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (1.1.0)
+2021-03-12 18:19:38,015 > Requirement already satisfied: semantic-version<3,>=2.8.5 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (2.8.5)
+2021-03-12 18:19:38,015 > Requirement already satisfied: monotonic<2,>=1.5; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (1.5)
+2021-03-12 18:19:38,015 > Requirement already satisfied: filetype<2,>=1.0.7 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->Bed-Visualizer==1.0.1) (1.0.7)
+2021-03-12 18:19:38,015 > Requirement already satisfied: six in /opt/octoprint/venv/lib/python2.7/site-packages (from websocket-client<1,>=0.57->OctoPrint->Bed-Visualizer==1.0.1) (1.15.0)
+2021-03-12 18:19:38,015 > Requirement already satisfied: pyasn1>=0.1.3 in /opt/octoprint/venv/lib/python2.7/site-packages (from rsa==4.0->OctoPrint->Bed-Visualizer==1.0.1) (0.4.8)
+2021-03-12 18:19:38,015 > Requirement already satisfied: setuptools>=36 in /opt/octoprint/venv/lib/python2.7/site-packages (from markdown<3.2,>=3.1->OctoPrint->Bed-Visualizer==1.0.1) (44.1.1)
+2021-03-12 18:19:38,015 > Requirement already satisfied: urllib3>=1.10.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from sentry-sdk<1,>=0.15.1->OctoPrint->Bed-Visualizer==1.0.1) (1.26.3)
+2021-03-12 18:19:38,016 > Requirement already satisfied: certifi in /opt/octoprint/venv/lib/python2.7/site-packages (from sentry-sdk<1,>=0.15.1->OctoPrint->Bed-Visualizer==1.0.1) (2020.12.5)
+2021-03-12 18:19:38,016 > Requirement already satisfied: pathtools>=0.1.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from watchdog==0.10.4->OctoPrint->Bed-Visualizer==1.0.1) (0.1.2)
+2021-03-12 18:19:38,016 > Requirement already satisfied: chardet<5,>=3.0.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from requests<3,>=2.23.0->OctoPrint->Bed-Visualizer==1.0.1) (4.0.0)
+2021-03-12 18:19:38,016 > Requirement already satisfied: idna<3,>=2.5 in /opt/octoprint/venv/lib/python2.7/site-packages (from requests<3,>=2.23.0->OctoPrint->Bed-Visualizer==1.0.1) (2.10)
+2021-03-12 18:19:38,016 > Requirement already satisfied: Babel>=2.3 in /opt/octoprint/venv/lib/python2.7/site-packages (from Flask-Babel<2,>=1.0->OctoPrint->Bed-Visualizer==1.0.1) (2.9.0)
+2021-03-12 18:19:38,016 > Requirement already satisfied: pytz in /opt/octoprint/venv/lib/python2.7/site-packages (from Flask-Babel<2,>=1.0->OctoPrint->Bed-Visualizer==1.0.1) (2021.1)
+2021-03-12 18:19:38,016 > Requirement already satisfied: backports-abc>=0.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from tornado==5.1.1->OctoPrint->Bed-Visualizer==1.0.1) (0.5)
+2021-03-12 18:19:38,016 > Requirement already satisfied: singledispatch in /opt/octoprint/venv/lib/python2.7/site-packages (from tornado==5.1.1->OctoPrint->Bed-Visualizer==1.0.1) (3.4.0.3)
+2021-03-12 18:19:38,016 > Requirement already satisfied: importlib-resources; python_version < "3.7" in /opt/octoprint/venv/lib/python2.7/site-packages (from netaddr<1,>=0.7.19->OctoPrint->Bed-Visualizer==1.0.1) (3.3.1)
+2021-03-12 18:19:38,016 > Requirement already satisfied: webassets>=2.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from Flask-Assets<3,>=2.0->OctoPrint->Bed-Visualizer==1.0.1) (2.0)
+2021-03-12 18:19:38,016 > Requirement already satisfied: contextlib2; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from importlib-resources; python_version < "3.7"->netaddr<1,>=0.7.19->OctoPrint->Bed-Visualizer==1.0.1) (0.6.0.post1)
+2021-03-12 18:19:38,016 > Requirement already satisfied: zipp>=0.4; python_version < "3.8" in /opt/octoprint/venv/lib/python2.7/site-packages (from importlib-resources; python_version < "3.7"->netaddr<1,>=0.7.19->OctoPrint->Bed-Visualizer==1.0.1) (1.2.0)
+2021-03-12 18:19:38,016 > Requirement already satisfied: pathlib2; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from importlib-resources; python_version < "3.7"->netaddr<1,>=0.7.19->OctoPrint->Bed-Visualizer==1.0.1) (2.3.5)
+2021-03-12 18:19:38,016 > Building wheels for collected packages: Bed-Visualizer
+2021-03-12 18:19:38,016 > Building wheel for Bed-Visualizer (setup.py): started
+2021-03-12 18:19:39,459 > Building wheel for Bed-Visualizer (setup.py): finished with status 'done'
+2021-03-12 18:19:39,460 > Created wheel for Bed-Visualizer: filename=Bed_Visualizer-1.0.1-py2-none-any.whl size=2557559 sha256=d04f9fdf45819790a445dfac02f334c14537a6e517688754c040f872f9149c77
+2021-03-12 18:19:39,461 > Stored in directory: /tmp/pip-ephem-wheel-cache-w15Yv_/wheels/5b/32/6a/967693e206554471ec641b8ce88147e3e131acb37108cada3a
+2021-03-12 18:19:39,462 > Successfully built Bed-Visualizer
+2021-03-12 18:19:39,462 > Installing collected packages: Bed-Visualizer
+2021-03-12 18:19:39,463 > Attempting uninstall: Bed-Visualizer
+2021-03-12 18:19:39,463 > Found existing installation: Bed-Visualizer 1.0.0
+2021-03-12 18:19:39,463 > Uninstalling Bed-Visualizer-1.0.0:
+2021-03-12 18:19:39,463 > Successfully uninstalled Bed-Visualizer-1.0.0
+2021-03-12 18:19:39,463 > Successfully installed Bed-Visualizer-1.0.1
+2021-03-12 18:19:39,518   /opt/octoprint/venv/bin/python2 -m pip --disable-pip-version-check install https://github.com/1r0b1n0/OctoPrint-Tempsgraph/archive/0.3.7.zip --no-cache-dir
+2021-03-12 18:19:41,492 > Collecting https://github.com/1r0b1n0/OctoPrint-Tempsgraph/archive/0.3.7.zip
+2021-03-12 18:19:41,493 > Downloading https://github.com/1r0b1n0/OctoPrint-Tempsgraph/archive/0.3.7.zip
+2021-03-12 18:19:44,044 > Requirement already satisfied: OctoPrint in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint-Tempsgraph==0.3.7) (1.5.3)
+2021-03-12 18:19:44,045 > Requirement already satisfied: OctoPrint-FileCheck>=2020.08.07 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (2021.2.23)
+2021-03-12 18:19:44,046 > Requirement already satisfied: flask<2,>=1.1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (1.1.2)
+2021-03-12 18:19:44,047 > Requirement already satisfied: sarge==0.1.5post0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (0.1.5.post0)
+2021-03-12 18:19:44,047 > Requirement already satisfied: websocket-client<1,>=0.57 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (0.57.0)
+2021-03-12 18:19:44,047 > Requirement already satisfied: netifaces<1,>=0.10.9 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (0.10.9)
+2021-03-12 18:19:44,047 > Requirement already satisfied: pylru<2,>=1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (1.2.0)
+2021-03-12 18:19:44,048 > Requirement already satisfied: feedparser<6,>=5.2.1; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (5.2.1)
+2021-03-12 18:19:44,048 > Requirement already satisfied: Click<8,>=7.1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (7.1.2)
+2021-03-12 18:19:44,048 > Requirement already satisfied: wrapt<2,>=1.12.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (1.12.1)
+2021-03-12 18:19:44,048 > Requirement already satisfied: blinker<2,>=1.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (1.4)
+2021-03-12 18:19:44,049 > Requirement already satisfied: unidecode<0.05,>=0.04.14 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (0.4.21)
+2021-03-12 18:19:44,049 > Requirement already satisfied: OctoPrint-FirmwareCheck>=2020.09.23 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (2021.2.4)
+2021-03-12 18:19:44,049 > Requirement already satisfied: PyYAML<6,>=5.3.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (5.4.1)
+2021-03-12 18:19:44,049 > Requirement already satisfied: rsa==4.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (4.0)
+2021-03-12 18:19:44,049 > Requirement already satisfied: scandir<2,>=1.10; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (1.10.0)
+2021-03-12 18:19:44,050 > Requirement already satisfied: Flask-Login<0.6,>=0.5 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (0.5.0)
+2021-03-12 18:19:44,050 > Requirement already satisfied: markdown<3.2,>=3.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (3.1.1)
+2021-03-12 18:19:44,050 > Requirement already satisfied: psutil<6,>=5.7 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (5.8.0)
+2021-03-12 18:19:44,050 > Requirement already satisfied: sentry-sdk<1,>=0.15.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (0.19.5)
+2021-03-12 18:19:44,050 > Requirement already satisfied: futures<4,>=3.3; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (3.3.0)
+2021-03-12 18:19:44,050 > Requirement already satisfied: watchdog==0.10.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (0.10.4)
+2021-03-12 18:19:44,050 > Requirement already satisfied: requests<3,>=2.23.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (2.25.1)
+2021-03-12 18:19:44,050 > Requirement already satisfied: markupsafe<2.0,>=1.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (1.1.1)
+2021-03-12 18:19:44,050 > Requirement already satisfied: future<1,>=0.18.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (0.18.2)
+2021-03-12 18:19:44,051 > Requirement already satisfied: cachelib<1,>=0.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (0.1.1)
+2021-03-12 18:19:44,051 > Requirement already satisfied: chainmap<2,>=1.0.3; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (1.0.3)
+2021-03-12 18:19:44,051 > Requirement already satisfied: Flask-Babel<2,>=1.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (1.0.0)
+2021-03-12 18:19:44,051 > Requirement already satisfied: frozendict<2,>=1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (1.2)
+2021-03-12 18:19:44,051 > Requirement already satisfied: werkzeug<2,>=1.0.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (1.0.1)
+2021-03-12 18:19:44,051 > Requirement already satisfied: tornado==5.1.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (5.1.1)
+2021-03-12 18:19:44,051 > Requirement already satisfied: pkginfo<2,>=1.5.0.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (1.7.0)
+2021-03-12 18:19:44,051 > Requirement already satisfied: enum34<1.2,>=1.1.10; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (1.1.10)
+2021-03-12 18:19:44,051 > Requirement already satisfied: typing<4,>=3.7.4.1; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (3.7.4.3)
+2021-03-12 18:19:44,051 > Requirement already satisfied: Jinja2<3,>=2.11.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (2.11.3)
+2021-03-12 18:19:44,051 > Requirement already satisfied: netaddr<1,>=0.7.19 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (0.8.0)
+2021-03-12 18:19:44,051 > Requirement already satisfied: emoji<1,>=0.5.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (0.6.0)
+2021-03-12 18:19:44,051 > Requirement already satisfied: pyserial<4,>=3.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (3.5)
+2021-03-12 18:19:44,051 > Requirement already satisfied: Flask-Assets<3,>=2.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (2.0)
+2021-03-12 18:19:44,051 > Requirement already satisfied: regex!=2018.11.6 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (2020.11.13)
+2021-03-12 18:19:44,051 > Requirement already satisfied: itsdangerous<2,>=1.1.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (1.1.0)
+2021-03-12 18:19:44,052 > Requirement already satisfied: semantic-version<3,>=2.8.5 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (2.8.5)
+2021-03-12 18:19:44,052 > Requirement already satisfied: monotonic<2,>=1.5; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (1.5)
+2021-03-12 18:19:44,052 > Requirement already satisfied: filetype<2,>=1.0.7 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->OctoPrint-Tempsgraph==0.3.7) (1.0.7)
+2021-03-12 18:19:44,052 > Requirement already satisfied: six in /opt/octoprint/venv/lib/python2.7/site-packages (from websocket-client<1,>=0.57->OctoPrint->OctoPrint-Tempsgraph==0.3.7) (1.15.0)
+2021-03-12 18:19:44,052 > Requirement already satisfied: pyasn1>=0.1.3 in /opt/octoprint/venv/lib/python2.7/site-packages (from rsa==4.0->OctoPrint->OctoPrint-Tempsgraph==0.3.7) (0.4.8)
+2021-03-12 18:19:44,052 > Requirement already satisfied: setuptools>=36 in /opt/octoprint/venv/lib/python2.7/site-packages (from markdown<3.2,>=3.1->OctoPrint->OctoPrint-Tempsgraph==0.3.7) (44.1.1)
+2021-03-12 18:19:44,052 > Requirement already satisfied: urllib3>=1.10.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from sentry-sdk<1,>=0.15.1->OctoPrint->OctoPrint-Tempsgraph==0.3.7) (1.26.3)
+2021-03-12 18:19:44,052 > Requirement already satisfied: certifi in /opt/octoprint/venv/lib/python2.7/site-packages (from sentry-sdk<1,>=0.15.1->OctoPrint->OctoPrint-Tempsgraph==0.3.7) (2020.12.5)
+2021-03-12 18:19:44,052 > Requirement already satisfied: pathtools>=0.1.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from watchdog==0.10.4->OctoPrint->OctoPrint-Tempsgraph==0.3.7) (0.1.2)
+2021-03-12 18:19:44,052 > Requirement already satisfied: chardet<5,>=3.0.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from requests<3,>=2.23.0->OctoPrint->OctoPrint-Tempsgraph==0.3.7) (4.0.0)
+2021-03-12 18:19:44,052 > Requirement already satisfied: idna<3,>=2.5 in /opt/octoprint/venv/lib/python2.7/site-packages (from requests<3,>=2.23.0->OctoPrint->OctoPrint-Tempsgraph==0.3.7) (2.10)
+2021-03-12 18:19:44,052 > Requirement already satisfied: Babel>=2.3 in /opt/octoprint/venv/lib/python2.7/site-packages (from Flask-Babel<2,>=1.0->OctoPrint->OctoPrint-Tempsgraph==0.3.7) (2.9.0)
+2021-03-12 18:19:44,052 > Requirement already satisfied: pytz in /opt/octoprint/venv/lib/python2.7/site-packages (from Flask-Babel<2,>=1.0->OctoPrint->OctoPrint-Tempsgraph==0.3.7) (2021.1)
+2021-03-12 18:19:44,052 > Requirement already satisfied: backports-abc>=0.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from tornado==5.1.1->OctoPrint->OctoPrint-Tempsgraph==0.3.7) (0.5)
+2021-03-12 18:19:44,052 > Requirement already satisfied: singledispatch in /opt/octoprint/venv/lib/python2.7/site-packages (from tornado==5.1.1->OctoPrint->OctoPrint-Tempsgraph==0.3.7) (3.4.0.3)
+2021-03-12 18:19:44,053 > Requirement already satisfied: importlib-resources; python_version < "3.7" in /opt/octoprint/venv/lib/python2.7/site-packages (from netaddr<1,>=0.7.19->OctoPrint->OctoPrint-Tempsgraph==0.3.7) (3.3.1)
+2021-03-12 18:19:44,053 > Requirement already satisfied: webassets>=2.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from Flask-Assets<3,>=2.0->OctoPrint->OctoPrint-Tempsgraph==0.3.7) (2.0)
+2021-03-12 18:19:44,053 > Requirement already satisfied: contextlib2; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from importlib-resources; python_version < "3.7"->netaddr<1,>=0.7.19->OctoPrint->OctoPrint-Tempsgraph==0.3.7) (0.6.0.post1)
+2021-03-12 18:19:44,053 > Requirement already satisfied: zipp>=0.4; python_version < "3.8" in /opt/octoprint/venv/lib/python2.7/site-packages (from importlib-resources; python_version < "3.7"->netaddr<1,>=0.7.19->OctoPrint->OctoPrint-Tempsgraph==0.3.7) (1.2.0)
+2021-03-12 18:19:44,053 > Requirement already satisfied: pathlib2; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from importlib-resources; python_version < "3.7"->netaddr<1,>=0.7.19->OctoPrint->OctoPrint-Tempsgraph==0.3.7) (2.3.5)
+2021-03-12 18:19:44,053 > Building wheels for collected packages: OctoPrint-Tempsgraph
+2021-03-12 18:19:44,053 > Building wheel for OctoPrint-Tempsgraph (setup.py): started
+2021-03-12 18:19:44,053 > Building wheel for OctoPrint-Tempsgraph (setup.py): finished with status 'done'
+2021-03-12 18:19:44,053 > Created wheel for OctoPrint-Tempsgraph: filename=OctoPrint_Tempsgraph-0.3.7-py2-none-any.whl size=985157 sha256=517df45d35aa9c21a8d164156ac8eb8f54ee26f45bc7df04956f36e48507e0bd
+2021-03-12 18:19:44,053 > Stored in directory: /tmp/pip-ephem-wheel-cache-q8Va6A/wheels/c5/7b/8f/22401c1080966ebcd54e6336ad3f435a42f47a478632bc57fe
+2021-03-12 18:19:44,053 > Successfully built OctoPrint-Tempsgraph
+2021-03-12 18:19:44,053 > Installing collected packages: OctoPrint-Tempsgraph
+2021-03-12 18:19:44,053 > Attempting uninstall: OctoPrint-Tempsgraph
+2021-03-12 18:19:44,053 > Found existing installation: OctoPrint-Tempsgraph 0.3.6
+2021-03-12 18:19:44,053 > Uninstalling OctoPrint-Tempsgraph-0.3.6:
+2021-03-12 18:19:44,053 > Successfully uninstalled OctoPrint-Tempsgraph-0.3.6
+2021-03-12 18:19:44,054 > Successfully installed OctoPrint-Tempsgraph-0.3.7
+2021-03-12 18:19:44,101   /opt/octoprint/venv/bin/python2 -m pip --disable-pip-version-check install https://github.com/LazeMSS/OctoPrint-UICustomizer/archive/0.1.5.5.zip --no-cache-dir
+2021-03-12 18:19:46,080 > Collecting https://github.com/LazeMSS/OctoPrint-UICustomizer/archive/0.1.5.5.zip
+2021-03-12 18:19:46,080 > Downloading https://github.com/LazeMSS/OctoPrint-UICustomizer/archive/0.1.5.5.zip
+2021-03-12 18:19:48,136 > Requirement already satisfied: OctoPrint in /opt/octoprint/venv/lib/python2.7/site-packages (from UI-Customizer==0.1.5.5) (1.5.3)
+2021-03-12 18:19:48,137 > Requirement already satisfied: OctoPrint-FileCheck>=2020.08.07 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (2021.2.23)
+2021-03-12 18:19:48,137 > Requirement already satisfied: pyserial<4,>=3.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (3.5)
+2021-03-12 18:19:48,138 > Requirement already satisfied: sarge==0.1.5post0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (0.1.5.post0)
+2021-03-12 18:19:48,139 > Requirement already satisfied: websocket-client<1,>=0.57 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (0.57.0)
+2021-03-12 18:19:48,139 > Requirement already satisfied: netifaces<1,>=0.10.9 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (0.10.9)
+2021-03-12 18:19:48,139 > Requirement already satisfied: pylru<2,>=1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (1.2.0)
+2021-03-12 18:19:48,140 > Requirement already satisfied: Click<8,>=7.1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (7.1.2)
+2021-03-12 18:19:48,140 > Requirement already satisfied: wrapt<2,>=1.12.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (1.12.1)
+2021-03-12 18:19:48,140 > Requirement already satisfied: blinker<2,>=1.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (1.4)
+2021-03-12 18:19:48,140 > Requirement already satisfied: unidecode<0.05,>=0.04.14 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (0.4.21)
+2021-03-12 18:19:48,141 > Requirement already satisfied: OctoPrint-FirmwareCheck>=2020.09.23 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (2021.2.4)
+2021-03-12 18:19:48,141 > Requirement already satisfied: PyYAML<6,>=5.3.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (5.4.1)
+2021-03-12 18:19:48,141 > Requirement already satisfied: rsa==4.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (4.0)
+2021-03-12 18:19:48,141 > Requirement already satisfied: scandir<2,>=1.10; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (1.10.0)
+2021-03-12 18:19:48,141 > Requirement already satisfied: Flask-Login<0.6,>=0.5 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (0.5.0)
+2021-03-12 18:19:48,142 > Requirement already satisfied: markdown<3.2,>=3.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (3.1.1)
+2021-03-12 18:19:48,142 > Requirement already satisfied: feedparser<6,>=5.2.1; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (5.2.1)
+2021-03-12 18:19:48,142 > Requirement already satisfied: psutil<6,>=5.7 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (5.8.0)
+2021-03-12 18:19:48,142 > Requirement already satisfied: sentry-sdk<1,>=0.15.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (0.19.5)
+2021-03-12 18:19:48,142 > Requirement already satisfied: futures<4,>=3.3; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (3.3.0)
+2021-03-12 18:19:48,142 > Requirement already satisfied: watchdog==0.10.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (0.10.4)
+2021-03-12 18:19:48,142 > Requirement already satisfied: requests<3,>=2.23.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (2.25.1)
+2021-03-12 18:19:48,142 > Requirement already satisfied: markupsafe<2.0,>=1.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (1.1.1)
+2021-03-12 18:19:48,142 > Requirement already satisfied: future<1,>=0.18.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (0.18.2)
+2021-03-12 18:19:48,143 > Requirement already satisfied: cachelib<1,>=0.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (0.1.1)
+2021-03-12 18:19:48,143 > Requirement already satisfied: chainmap<2,>=1.0.3; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (1.0.3)
+2021-03-12 18:19:48,143 > Requirement already satisfied: Flask-Babel<2,>=1.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (1.0.0)
+2021-03-12 18:19:48,143 > Requirement already satisfied: frozendict<2,>=1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (1.2)
+2021-03-12 18:19:48,143 > Requirement already satisfied: werkzeug<2,>=1.0.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (1.0.1)
+2021-03-12 18:19:48,143 > Requirement already satisfied: tornado==5.1.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (5.1.1)
+2021-03-12 18:19:48,143 > Requirement already satisfied: pkginfo<2,>=1.5.0.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (1.7.0)
+2021-03-12 18:19:48,143 > Requirement already satisfied: enum34<1.2,>=1.1.10; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (1.1.10)
+2021-03-12 18:19:48,143 > Requirement already satisfied: typing<4,>=3.7.4.1; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (3.7.4.3)
+2021-03-12 18:19:48,143 > Requirement already satisfied: Jinja2<3,>=2.11.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (2.11.3)
+2021-03-12 18:19:48,143 > Requirement already satisfied: netaddr<1,>=0.7.19 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (0.8.0)
+2021-03-12 18:19:48,143 > Requirement already satisfied: emoji<1,>=0.5.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (0.6.0)
+2021-03-12 18:19:48,143 > Requirement already satisfied: flask<2,>=1.1.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (1.1.2)
+2021-03-12 18:19:48,143 > Requirement already satisfied: Flask-Assets<3,>=2.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (2.0)
+2021-03-12 18:19:48,143 > Requirement already satisfied: regex!=2018.11.6 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (2020.11.13)
+2021-03-12 18:19:48,143 > Requirement already satisfied: itsdangerous<2,>=1.1.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (1.1.0)
+2021-03-12 18:19:48,144 > Requirement already satisfied: semantic-version<3,>=2.8.5 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (2.8.5)
+2021-03-12 18:19:48,144 > Requirement already satisfied: monotonic<2,>=1.5; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (1.5)
+2021-03-12 18:19:48,144 > Requirement already satisfied: filetype<2,>=1.0.7 in /opt/octoprint/venv/lib/python2.7/site-packages (from OctoPrint->UI-Customizer==0.1.5.5) (1.0.7)
+2021-03-12 18:19:48,144 > Requirement already satisfied: six in /opt/octoprint/venv/lib/python2.7/site-packages (from websocket-client<1,>=0.57->OctoPrint->UI-Customizer==0.1.5.5) (1.15.0)
+2021-03-12 18:19:48,144 > Requirement already satisfied: pyasn1>=0.1.3 in /opt/octoprint/venv/lib/python2.7/site-packages (from rsa==4.0->OctoPrint->UI-Customizer==0.1.5.5) (0.4.8)
+2021-03-12 18:19:48,144 > Requirement already satisfied: setuptools>=36 in /opt/octoprint/venv/lib/python2.7/site-packages (from markdown<3.2,>=3.1->OctoPrint->UI-Customizer==0.1.5.5) (44.1.1)
+2021-03-12 18:19:48,144 > Requirement already satisfied: urllib3>=1.10.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from sentry-sdk<1,>=0.15.1->OctoPrint->UI-Customizer==0.1.5.5) (1.26.3)
+2021-03-12 18:19:48,144 > Requirement already satisfied: certifi in /opt/octoprint/venv/lib/python2.7/site-packages (from sentry-sdk<1,>=0.15.1->OctoPrint->UI-Customizer==0.1.5.5) (2020.12.5)
+2021-03-12 18:19:48,144 > Requirement already satisfied: pathtools>=0.1.1 in /opt/octoprint/venv/lib/python2.7/site-packages (from watchdog==0.10.4->OctoPrint->UI-Customizer==0.1.5.5) (0.1.2)
+2021-03-12 18:19:48,144 > Requirement already satisfied: chardet<5,>=3.0.2 in /opt/octoprint/venv/lib/python2.7/site-packages (from requests<3,>=2.23.0->OctoPrint->UI-Customizer==0.1.5.5) (4.0.0)
+2021-03-12 18:19:48,144 > Requirement already satisfied: idna<3,>=2.5 in /opt/octoprint/venv/lib/python2.7/site-packages (from requests<3,>=2.23.0->OctoPrint->UI-Customizer==0.1.5.5) (2.10)
+2021-03-12 18:19:48,144 > Requirement already satisfied: Babel>=2.3 in /opt/octoprint/venv/lib/python2.7/site-packages (from Flask-Babel<2,>=1.0->OctoPrint->UI-Customizer==0.1.5.5) (2.9.0)
+2021-03-12 18:19:48,144 > Requirement already satisfied: pytz in /opt/octoprint/venv/lib/python2.7/site-packages (from Flask-Babel<2,>=1.0->OctoPrint->UI-Customizer==0.1.5.5) (2021.1)
+2021-03-12 18:19:48,144 > Requirement already satisfied: backports-abc>=0.4 in /opt/octoprint/venv/lib/python2.7/site-packages (from tornado==5.1.1->OctoPrint->UI-Customizer==0.1.5.5) (0.5)
+2021-03-12 18:19:48,144 > Requirement already satisfied: singledispatch in /opt/octoprint/venv/lib/python2.7/site-packages (from tornado==5.1.1->OctoPrint->UI-Customizer==0.1.5.5) (3.4.0.3)
+2021-03-12 18:19:48,145 > Requirement already satisfied: importlib-resources; python_version < "3.7" in /opt/octoprint/venv/lib/python2.7/site-packages (from netaddr<1,>=0.7.19->OctoPrint->UI-Customizer==0.1.5.5) (3.3.1)
+2021-03-12 18:19:48,145 > Requirement already satisfied: webassets>=2.0 in /opt/octoprint/venv/lib/python2.7/site-packages (from Flask-Assets<3,>=2.0->OctoPrint->UI-Customizer==0.1.5.5) (2.0)
+2021-03-12 18:19:48,145 > Requirement already satisfied: contextlib2; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from importlib-resources; python_version < "3.7"->netaddr<1,>=0.7.19->OctoPrint->UI-Customizer==0.1.5.5) (0.6.0.post1)
+2021-03-12 18:19:48,145 > Requirement already satisfied: zipp>=0.4; python_version < "3.8" in /opt/octoprint/venv/lib/python2.7/site-packages (from importlib-resources; python_version < "3.7"->netaddr<1,>=0.7.19->OctoPrint->UI-Customizer==0.1.5.5) (1.2.0)
+2021-03-12 18:19:48,145 > Requirement already satisfied: pathlib2; python_version < "3" in /opt/octoprint/venv/lib/python2.7/site-packages (from importlib-resources; python_version < "3.7"->netaddr<1,>=0.7.19->OctoPrint->UI-Customizer==0.1.5.5) (2.3.5)
+2021-03-12 18:19:48,145 > Building wheels for collected packages: UI-Customizer
+2021-03-12 18:19:48,145 > Building wheel for UI-Customizer (setup.py): started
+2021-03-12 18:19:48,145 > Building wheel for UI-Customizer (setup.py): finished with status 'done'
+2021-03-12 18:19:48,145 > Created wheel for UI-Customizer: filename=UI_Customizer-0.1.5.5-py2-none-any.whl size=496832 sha256=11fb8960923526d17e7068d9ff00cbc057df5b7eeeccc821aa98c7eb8e4eac5c
+2021-03-12 18:19:48,145 > Stored in directory: /tmp/pip-ephem-wheel-cache-ZJmDzm/wheels/45/af/51/9a3cb9a7f402a67a3c049fa36b1d92f0a35cf99392f99fd4a8
+2021-03-12 18:19:48,145 > Successfully built UI-Customizer
+2021-03-12 18:19:48,145 > Installing collected packages: UI-Customizer
+2021-03-12 18:19:48,145 > Attempting uninstall: UI-Customizer
+2021-03-12 18:19:48,145 > Found existing installation: UI-Customizer 0.1.5.3
+2021-03-12 18:19:48,145 > Uninstalling UI-Customizer-0.1.5.3:
+2021-03-12 18:19:48,145 > Successfully uninstalled UI-Customizer-0.1.5.3
+2021-03-12 18:19:48,146 > Successfully installed UI-Customizer-0.1.5.5

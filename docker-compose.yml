@@ -1,0 +1,20 @@
+version: '3'
+services:
+  octoprint-klipper:
+    image: "seanauff/octoprint-klipper:amd64"
+    container_name: "octoprint-klipper"
+#    devices:
+#      - "/dev/ttyUSB1:/dev/ttyUSB1"
+#      - "/dev/ttyACM0:/dev/ttyACM0"
+#      - "/dev:/dev"
+    ports:
+      - "5000:5000"
+    volumes:
+      - "/dev:/dev"
+      - "/home/tomas/octoprint-klipper:/home/octoprint/.octoprint"
+      - "/dev/serial/by-id/:/dev/serial/by-id/"
+#      - "/home/octoprint-klipper:/home/octoprint-klipper/.octoprint"
+    environment:
+      TZ: Europe/Prague
+    restart: unless-stopped
+    privileged: true
